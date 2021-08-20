@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/abj-blogs/static/css/main.49d9b656.chunk.css",
-    "main.js": "/abj-blogs/static/js/main.36f948b8.chunk.js",
-    "main.js.map": "/abj-blogs/static/js/main.36f948b8.chunk.js.map",
+    "main.js": "/abj-blogs/static/js/main.de0d4d98.chunk.js",
+    "main.js.map": "/abj-blogs/static/js/main.de0d4d98.chunk.js.map",
     "runtime-main.js": "/abj-blogs/static/js/runtime-main.f8ab886e.js",
     "runtime-main.js.map": "/abj-blogs/static/js/runtime-main.f8ab886e.js.map",
     "static/js/2.fff4da47.chunk.js": "/abj-blogs/static/js/2.fff4da47.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f8ab886e.js",
     "static/js/2.fff4da47.chunk.js",
     "static/css/main.49d9b656.chunk.css",
-    "static/js/main.36f948b8.chunk.js"
+    "static/js/main.de0d4d98.chunk.js"
   ]
 }
