@@ -31,9 +31,9 @@ const Home = () => {
 				text="To Portfolio"
 				className= "toPortfolio"
 				onClick={() => {
-						console.log("ABJ clicked");
-						if (window.confirm("You will be redirected to ABJ public portfolio. Do you want to leave this page?"))
-						window.open("https://abhj.github.io/public-portfolio/");
+						// console.log("ABJ clicked");
+						// if (window.confirm("You will be redirected to ABJ public portfolio. Do you want to leave this page?"))
+						window.open("https://abhj.github.io/public-portfolio/", "_self");
 					}
 				} />
 		</div>
