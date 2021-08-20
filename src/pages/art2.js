@@ -19,7 +19,7 @@ const art2 = () => {
 
 				<h3>Coding round. How many rounds and the degree of difficulty? How much expertise do you need to clear the round?</h3><br/>
 
-				There were 3 problems in the shortlisting test. One of them (3rd one) was difficult for me. The other two was of medium difficulty. I would say, being rated &gt "expert" on Codeforces would be good enough to be able to solve 2 problems full. I was also able to solve the 3rd problem partially.
+				There were 3 problems in the shortlisting test. One of them (3rd one) was difficult for me. The other two was of medium difficulty. I would say, being rated >= "expert" on Codeforces would be good enough to be able to solve 2 problems full. I was also able to solve the 3rd problem partially.
 
 				<h3>CV : How important was your CV? Would you advise adding things which are not completely true in CV?</h3><br/>
 
