@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/abj-blogs/static/css/main.296df97c.chunk.css",
+    "main.js": "/abj-blogs/static/js/main.d71f1880.chunk.js",
+    "main.js.map": "/abj-blogs/static/js/main.d71f1880.chunk.js.map",
+    "runtime-main.js": "/abj-blogs/static/js/runtime-main.f8ab886e.js",
+    "runtime-main.js.map": "/abj-blogs/static/js/runtime-main.f8ab886e.js.map",
+    "static/js/2.fff4da47.chunk.js": "/abj-blogs/static/js/2.fff4da47.chunk.js",
+    "static/js/2.fff4da47.chunk.js.map": "/abj-blogs/static/js/2.fff4da47.chunk.js.map",
+    "static/js/3.363f36cc.chunk.js": "/abj-blogs/static/js/3.363f36cc.chunk.js",
+    "static/js/3.363f36cc.chunk.js.map": "/abj-blogs/static/js/3.363f36cc.chunk.js.map",
+    "index.html": "/abj-blogs/index.html",
+    "static/css/main.296df97c.chunk.css.map": "/abj-blogs/static/css/main.296df97c.chunk.css.map",
+    "static/js/2.fff4da47.chunk.js.LICENSE.txt": "/abj-blogs/static/js/2.fff4da47.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f8ab886e.js",
+    "static/js/2.fff4da47.chunk.js",
+    "static/css/main.296df97c.chunk.css",
+    "static/js/main.d71f1880.chunk.js"
+  ]
+}
