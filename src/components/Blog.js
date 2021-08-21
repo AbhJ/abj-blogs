@@ -6,10 +6,11 @@ const Blog = ({ blog }) => {
 	return (
 		<div>
 			<p>
+				<hr />
 				{blog.headLine}: <Link to={"/abj-blogs/blog" + blog.id}>
 					link
 				</Link>
-				<span style={{ float: "right", paddingRight: "20px" }}>
+				<span style={{ float: "right", paddingRight: "1.25em" }}>
 					created: {blog.day}
 				</span>
 			</p>
