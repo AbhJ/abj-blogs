@@ -6,7 +6,7 @@ const art3 = () => {
 		<div>
 			<h2>Languages of the future:</h2>
 			<pre>Which Languages may dominate in the near future (2025-2030)?<br/>
-				This blog is also available in <a href="https://youtu.be/B4uNoxvmryw">video</a> format</pre><br/>
+				This blog is also available in <a href="https://youtu.be/B4uNoxvmryw">video</a> format</pre>
 			Some languages which I dont see going out of demand are definitely:
 			<ul>
 				<li style={liStyle}> 
