@@ -29,6 +29,7 @@ const ButtonStyle = {
     lineHeight: "1.375em",
 	fontWeight: "bolder",
     fontFamily: "Roboto Mono",
+    cursor: "pointer"
 }
 
 export default Button;
