@@ -7,7 +7,7 @@ const Blog = ({ blog }) => {
 		<div>
 			<p>
 				<hr />
-				{blog.headLine}: <Link to={"/abj-blogs/blog" + blog.id}>
+				{blog.id}) {blog.headLine}: <Link to={"/abj-blogs/blog" + blog.id}>
 					link
 				</Link>
 				<span style={{ float: "right", paddingRight: "1.25em" }}>
