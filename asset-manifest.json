@@ -1,22 +1,28 @@
 {
   "files": {
+    "static/js/0.2f80e824.chunk.js": "/abj-blogs/static/js/0.2f80e824.chunk.js",
+    "static/js/0.2f80e824.chunk.js.map": "/abj-blogs/static/js/0.2f80e824.chunk.js.map",
+    "static/js/1.bbe7e2c5.chunk.js": "/abj-blogs/static/js/1.bbe7e2c5.chunk.js",
+    "static/js/1.bbe7e2c5.chunk.js.map": "/abj-blogs/static/js/1.bbe7e2c5.chunk.js.map",
+    "static/js/2.042ed319.chunk.js": "/abj-blogs/static/js/2.042ed319.chunk.js",
+    "static/js/2.042ed319.chunk.js.map": "/abj-blogs/static/js/2.042ed319.chunk.js.map",
     "main.css": "/abj-blogs/static/css/main.6053a0f5.chunk.css",
-    "main.js": "/abj-blogs/static/js/main.6342397a.chunk.js",
-    "main.js.map": "/abj-blogs/static/js/main.6342397a.chunk.js.map",
-    "runtime-main.js": "/abj-blogs/static/js/runtime-main.2198659b.js",
-    "runtime-main.js.map": "/abj-blogs/static/js/runtime-main.2198659b.js.map",
-    "static/js/2.b5870284.chunk.js": "/abj-blogs/static/js/2.b5870284.chunk.js",
-    "static/js/2.b5870284.chunk.js.map": "/abj-blogs/static/js/2.b5870284.chunk.js.map",
-    "static/js/3.49e28e97.chunk.js": "/abj-blogs/static/js/3.49e28e97.chunk.js",
-    "static/js/3.49e28e97.chunk.js.map": "/abj-blogs/static/js/3.49e28e97.chunk.js.map",
+    "main.js": "/abj-blogs/static/js/main.9a0d2043.chunk.js",
+    "main.js.map": "/abj-blogs/static/js/main.9a0d2043.chunk.js.map",
+    "runtime-main.js": "/abj-blogs/static/js/runtime-main.d32690b3.js",
+    "runtime-main.js.map": "/abj-blogs/static/js/runtime-main.d32690b3.js.map",
+    "static/js/5.2cf7ec4c.chunk.js": "/abj-blogs/static/js/5.2cf7ec4c.chunk.js",
+    "static/js/5.2cf7ec4c.chunk.js.map": "/abj-blogs/static/js/5.2cf7ec4c.chunk.js.map",
+    "static/js/6.b0ec2b5d.chunk.js": "/abj-blogs/static/js/6.b0ec2b5d.chunk.js",
+    "static/js/6.b0ec2b5d.chunk.js.map": "/abj-blogs/static/js/6.b0ec2b5d.chunk.js.map",
     "index.html": "/abj-blogs/index.html",
     "static/css/main.6053a0f5.chunk.css.map": "/abj-blogs/static/css/main.6053a0f5.chunk.css.map",
-    "static/js/2.b5870284.chunk.js.LICENSE.txt": "/abj-blogs/static/js/2.b5870284.chunk.js.LICENSE.txt"
+    "static/js/5.2cf7ec4c.chunk.js.LICENSE.txt": "/abj-blogs/static/js/5.2cf7ec4c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2198659b.js",
-    "static/js/2.b5870284.chunk.js",
+    "static/js/runtime-main.d32690b3.js",
+    "static/js/5.2cf7ec4c.chunk.js",
     "static/css/main.6053a0f5.chunk.css",
-    "static/js/main.6342397a.chunk.js"
+    "static/js/main.9a0d2043.chunk.js"
   ]
 }
