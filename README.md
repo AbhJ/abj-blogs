@@ -1,9 +1,6 @@
-THIS IS MY MINIMALIST BLOG APP WHERE I WRITE ABOUT TECH AND SOFTWARE. 
-SOMETIMES I ALSO WRITE ABOUT OTHER NERDY TOPICS TOO.
-
-DESIGN INSPIRATION:  
-		1. COLORS HAVE BEEN CHOSEN FROM OPEN SOURCE PROJECT
-			https://github.com/joshdick/onedark.vim  
-		2. I HAVE BEEN INSPIRED BY YOUTUBER https://distrotube.com/  
-
-DUE CREDITS TO THEM
+This is my minimalist blog app where I write about tech and software.  
+Sometimes I also write about other nerdy topics too. 
+  
+Design inspiration:  
+	1. Colors have been chosen from open source project https://github.com/joshdick/onedark.vim  
+	2. I have been inspired by youtuber https://distrotube.com/ due credits to them
