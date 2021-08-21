@@ -21,12 +21,12 @@ Button.propTypes = {
 }
 
 const ButtonStyle = {
-	borderRadius: "4px",
+	borderRadius: "0.25em",
     margin: "0 auto",
 	color: "#282c34",
 	backgroundColor: "#61afef",
-	fontSize: "14px",
-    lineHeight: "22px",
+	fontSize: "0.875em",
+    lineHeight: "1.375em",
 	fontWeight: "bolder",
     fontFamily: "Roboto Mono",
 }
