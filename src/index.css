@@ -3,44 +3,75 @@
 @import url('https://fonts.googleapis.com/css?family=Anton');
 
 /*
-	DESIGN INSPIRATION:
-		1. COLORS HAVE BEEN CHOSEN FROM OPEN SOURCE PROJECT
-			https://github.com/joshdick/onedark.vim
-		2. I HAVE BEEN INSPIRED BY YOUTUBER https://distrotube.com/
+DESIGN INSPIRATION:
+1. COLORS HAVE BEEN CHOSEN FROM OPEN SOURCE PROJECT
+https://github.com/joshdick/onedark.vim
+2. I HAVE BEEN INSPIRED BY YOUTUBER https://distrotube.com/
 
-	DUE CREDITS TO THEM
-*/
+DUE CREDITS TO THEM
+ */
+
+.div-only-mobile {
+  display: none;
+}
+
+.div-no-mobile {
+}
+
+@media screen and (max-width: 849px) {
+  .div-no-mobile {
+    display:none
+  }
+  .div-only-mobile {
+    display: block;
+  }
+}
+
+.line {
+  overflow: hidden;
+  position: relative;
+}
+
+.line::after {
+  content: '';
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 1px solid gray;
+  position: absolute;
+  bottom: 0.5em;
+  margin-left: 0.5em;
+}
 
 .btn {
-	border-radius: 4px;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    color: #282c34;
-    margin: 0 auto;
-	background-color: #61afef;
-	font-size: 0.875em;
-    line-height: 1.375px;
-	font-weight: bolder;
-    font-family: "Roboto Mono";
+  border-radius: 4px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #282c34;
+  margin: 0 auto;
+  background-color: #61afef;
+  font-size: 0.875em;
+  line-height: 1.375px;
+  font-weight: bolder;
+  font-family: "Roboto Mono";
 }
 
 body {
-    padding: 1.25em;
-    background-color: #282c34;
-    color: #abb2bf;
-    font-family: "Roboto Mono";
-    font-size: 0.875em;
-    line-height: 1.375em;
-    margin: 0 auto;
-    max-width: 60em;
+  padding: 1.25em;
+  background-color: #282c34;
+  color: #abb2bf;
+  font-family: "Roboto Mono";
+  font-size: 0.875em;
+  line-height: 1.375em;
+  margin: 0 auto;
+  max-width: 60em;
 }
 
 ::-webkit-scrollbar {
@@ -48,47 +79,47 @@ body {
 }
 
 pre {
-    color: #e5c07b;
+  color: #e5c07b;
 }
 
 blockquote {
-    color: #e5c07b;
+  color: #e5c07b;
 }
 
 a {
-    color: #c678dd;
-    text-decoration: none;
+  color: #c678dd;
+  text-decoration: none;
 }
 
 li {
-    color: #98c379;
+  color: #98c379;
 }
 
 a:hover {
-    color: #61afef;
+  color: #61afef;
 }
 
 h1 {
-    color: #e06c75;
-    margin-bottom: 0px;
+  color: #e06c75;
+  margin-bottom: 0px;
 }
 
 h2 {
-    color: #61afef;
-    margin-bottom: 0px;
+  color: #61afef;
+  margin-bottom: 0px;
 }
 
 h3, h4, h5, h6 {
-	color: #56b6c2;
-	margin-bottom: 0px;
+  color: #56b6c2;
+  margin-bottom: 0px;
 }
 
 p {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }
