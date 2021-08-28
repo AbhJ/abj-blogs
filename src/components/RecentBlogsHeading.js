@@ -6,7 +6,6 @@ const RecentBlogsHeading = () => {
 			<h2>
 				Some of my recent blogs are:
 			</h2>
-			<br />
 		</div>
 	)
 }
