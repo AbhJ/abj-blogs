@@ -1,28 +1,28 @@
 {
   "files": {
-    "static/js/0.e57f788a.chunk.js": "/abj-blogs/static/js/0.e57f788a.chunk.js",
-    "static/js/0.e57f788a.chunk.js.map": "/abj-blogs/static/js/0.e57f788a.chunk.js.map",
-    "static/js/1.0235a59c.chunk.js": "/abj-blogs/static/js/1.0235a59c.chunk.js",
-    "static/js/1.0235a59c.chunk.js.map": "/abj-blogs/static/js/1.0235a59c.chunk.js.map",
+    "static/js/0.433021b0.chunk.js": "/abj-blogs/static/js/0.433021b0.chunk.js",
+    "static/js/0.433021b0.chunk.js.map": "/abj-blogs/static/js/0.433021b0.chunk.js.map",
+    "static/js/1.7fcb4229.chunk.js": "/abj-blogs/static/js/1.7fcb4229.chunk.js",
+    "static/js/1.7fcb4229.chunk.js.map": "/abj-blogs/static/js/1.7fcb4229.chunk.js.map",
     "static/js/2.a6ebac2e.chunk.js": "/abj-blogs/static/js/2.a6ebac2e.chunk.js",
     "static/js/2.a6ebac2e.chunk.js.map": "/abj-blogs/static/js/2.a6ebac2e.chunk.js.map",
-    "main.css": "/abj-blogs/static/css/main.6887ee01.chunk.css",
-    "main.js": "/abj-blogs/static/js/main.86e48f4a.chunk.js",
-    "main.js.map": "/abj-blogs/static/js/main.86e48f4a.chunk.js.map",
-    "runtime-main.js": "/abj-blogs/static/js/runtime-main.155ad0a4.js",
-    "runtime-main.js.map": "/abj-blogs/static/js/runtime-main.155ad0a4.js.map",
+    "main.css": "/abj-blogs/static/css/main.7f09c73b.chunk.css",
+    "main.js": "/abj-blogs/static/js/main.045b03bf.chunk.js",
+    "main.js.map": "/abj-blogs/static/js/main.045b03bf.chunk.js.map",
+    "runtime-main.js": "/abj-blogs/static/js/runtime-main.b71766f5.js",
+    "runtime-main.js.map": "/abj-blogs/static/js/runtime-main.b71766f5.js.map",
     "static/js/5.368ea2c5.chunk.js": "/abj-blogs/static/js/5.368ea2c5.chunk.js",
     "static/js/5.368ea2c5.chunk.js.map": "/abj-blogs/static/js/5.368ea2c5.chunk.js.map",
     "static/js/6.6d24565e.chunk.js": "/abj-blogs/static/js/6.6d24565e.chunk.js",
     "static/js/6.6d24565e.chunk.js.map": "/abj-blogs/static/js/6.6d24565e.chunk.js.map",
     "index.html": "/abj-blogs/index.html",
-    "static/css/main.6887ee01.chunk.css.map": "/abj-blogs/static/css/main.6887ee01.chunk.css.map",
+    "static/css/main.7f09c73b.chunk.css.map": "/abj-blogs/static/css/main.7f09c73b.chunk.css.map",
     "static/js/5.368ea2c5.chunk.js.LICENSE.txt": "/abj-blogs/static/js/5.368ea2c5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.155ad0a4.js",
+    "static/js/runtime-main.b71766f5.js",
     "static/js/5.368ea2c5.chunk.js",
-    "static/css/main.6887ee01.chunk.css",
-    "static/js/main.86e48f4a.chunk.js"
+    "static/css/main.7f09c73b.chunk.css",
+    "static/js/main.045b03bf.chunk.js"
   ]
 }
