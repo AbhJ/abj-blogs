@@ -20,7 +20,7 @@ DUE CREDITS TO THEM
 
 @media screen and (max-width: 849px) {
   .div-no-mobile {
-    display:none
+    display:none;
   }
   .div-only-mobile {
     display: block;
