@@ -7,8 +7,8 @@ const art2 = () => {
 		<div>
 			<h2>Internship at Salesforce:</h2>
 
-				<pre>This article has also been published at <a href="https://internphile.herokuapp.com/intern/Abhijay_Mitra">link</a><br/>
-				Similar video has also been published at <a href = "https://youtu.be/aR9AilNbtio">link</a></pre>
+				<pre>This article has also been published at <a href="https://internphile.herokuapp.com/intern/Abhijay_Mitra">link</a>.<br/>
+				Similar video has also been published at <a href = "https://youtu.be/aR9AilNbtio">link</a>.</pre>
 				<h3>Why did you choose the company?</h3><br/>
 
 				I liked the company.

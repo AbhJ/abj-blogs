@@ -6,7 +6,7 @@ const art1 = () => {
 		<div>
 			<h2>A tribute to Kentaro Miura:</h2>
 
-			<pre>This blog is also available in <a href="https://youtu.be/0gHNucQqVNo">video</a> format</pre>
+			<pre>This blog is also available in <a href="https://youtu.be/0gHNucQqVNo">video</a> format.</pre>
 
 			This blog is to appreciate the legend of Kentaro Miura. It's been around a year, I started reading Berserk and I promise the effect it had on me is worth a lifetime. <br /><br />
 			Miura is phenomenal, his art is majestic, the most superior I have ever seen and his storytelling skills are like magic. <br /><br />
