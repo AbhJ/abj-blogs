@@ -21,7 +21,6 @@ const art1 = () => {
 				className= "toHome"
 				onClick={() => {
 						console.log("tohome clicked");
-						window.location.href = '/abj-blogs/';
 					}
 				} />
 		</div>
