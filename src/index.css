@@ -32,6 +32,10 @@ DUE CREDITS TO THEM
   position: relative;
 }
 
+.sm-icon {
+  padding: 0.5em;
+}
+
 .line::after {
   content: '';
   width: 100%;

@@ -4,7 +4,7 @@ import Button from "../components/Button"
 const art1 = () => {
 	return (
 		<div>
-			<h2>A tribute to Kentaro Miura:</h2>
+			<h2>A tribute to Kentaro Miura</h2>
 
 			<pre>This blog is also available in <a href="https://youtu.be/0gHNucQqVNo">video</a> format.</pre>
 
