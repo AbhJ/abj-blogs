@@ -1,10 +1,12 @@
 import React from 'react'
 import Button from "../components/Button"
+import Footer from "../components/Footer"
 
 const art3 = () => {
 	return (
 		<div>
-			<h2>Languages of the future</h2>
+			<div style={{maxWidth: '90%', paddingLeft: '5%', top: '-1em', position: 'relative'}}>
+			<h2>Languages of the future:</h2>
 			<pre>Which Languages may dominate in the near future<span className='div-no-mobile'> (2025-2030)</span>?<br/>
 				This blog is also available in <a href="https://youtu.be/B4uNoxvmryw">video</a> format.</pre>
 			Some languages which I don't see going out of demand are definitely:
@@ -25,14 +27,10 @@ const art3 = () => {
 					<h3>Python:</h3><br/> One of the reasons Python is so popular despite being much slower compared to the others in this list must be the huge ocean of libraries and frameworks available for it. Also, code in Python looks more like pseudo code than most other languages. That makes Python code very easy to understand. Also, the learning curve in Python is much easier for newcomers in the world of software. 
 				</li>
 			</ul>
-			<br/><br/>
-			<Button
-				text="To HomePage"
-				className= "toHome"
-				onClick={() => {
-					console.log("tohome clicked");
-				}
-				} />
+			</div>
+		<Footer
+			isBlogsArticle = {true}
+		/>
 		</div>
 	)
 }
