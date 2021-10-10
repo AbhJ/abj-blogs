@@ -1,10 +1,12 @@
 import React from 'react'
 import Button from "../components/Button"
+import Footer from "../components/Footer"
 
 const art2 = () => {
 	return (
 		<div>
-			<h2>Internship at Salesforce</h2>
+			<div style={{maxWidth: '90%', paddingLeft: '5%', paddingBottom: '1em', top: '-1em', position: 'relative'}}>
+			<h2>Internship at Salesforce:</h2>
 
 			<pre>This article has also been published at <a href="https://internphile.herokuapp.com/intern/Abhijay_Mitra">link</a>.<br/>
 				Similar video has also been published at <a href = "https://youtu.be/aR9AilNbtio">link</a>.</pre>
@@ -51,15 +53,10 @@ const art2 = () => {
 			<h3>What was your overall CDC experience? Any advice for improving the process down the line?</h3><br/>
 
 			It was amazing for me. I think the process is well structured and while most colleges have much lesser companies hiring from them, CDC plays a good role in KGP.
-
-			<br/><br/>
-			<Button
-				text="To HomePage"
-				className= "toHome"
-				onClick={() => {
-					console.log("tohome clicked");
-				}
-				} />
+		</div>
+		<Footer
+			isBlogsArticle = {true}
+		/>
 		</div>
 	)
 }
