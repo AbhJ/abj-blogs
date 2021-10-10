@@ -30,8 +30,8 @@ const art3 = () => {
 				text="To HomePage"
 				className= "toHome"
 				onClick={() => {
-						console.log("tohome clicked");
-					}
+					console.log("tohome clicked");
+				}
 				} />
 		</div>
 	)
