@@ -40,7 +40,7 @@ const art2 = () => {
 
 			<h3>How was the work culture in the company?</h3><br/>
 
-			Salesforce has one the best work cultures in the world. It is currently (2021) the 2nd best company in the world to work for according to Fortune (link - https://fortune.com/best-companies/2021/). I worked for about 3-5 hours a day on average. They provided everything I needed for the internship, along with awesome gifts and swags on regular intervals. The employees are always happy, motivated and ready to clear all your doubts and everyone in the company was just a ping on Slack away.
+			Salesforce has one the best work cultures in the world. It is currently (2021) the 2nd best company in the world to work for according to <a href='https://fortune.com/best-companies/2021'>Fortune</a>. I worked for about 5 hours a day on average. They provided everything I needed for the internship, along with awesome gifts and swags on regular intervals. The employees are always happy, motivated and ready to clear all your doubts and everyone in the company was just a ping on Slack away.
 
 			<h3>Were important tasks given to you or any input you gave to your project manager which proved to be useful?</h3><br/>
 

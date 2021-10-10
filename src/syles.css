@@ -4,6 +4,7 @@
   --pre-color: #868715;
   --h2-color: #377375;
   --h3-color: #719586;
+  --lk-color: #a04b73;
 }
 
 [data-theme="dark"] {
@@ -11,7 +12,8 @@
   --text-color: #abb2bf;
   --pre-color: #e5c07b;
   --h2-color: #61afef;
-  --h3-color: #56b6c2;
+  --h3-color: #56b6c2;   
+  --lk-color: #c678dd;
 }
 
 .Main {
@@ -25,12 +27,20 @@
   padding: 2em 0 0 0;
 }
 
+.Main hr {
+  border: 1px solid var(--text-color);
+}
+
+.Main a {
+  color: var(--lk-color);
+}
+
 .Main pre {
-    color: var(--pre-color);
+  color: var(--pre-color);
 }
 
 .Main h2 {
-    color: var(--h2-color);
+  color: var(--h2-color);
 }
 
 .Main h3, h4, h5, h6 {
