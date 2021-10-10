@@ -17,15 +17,15 @@ const art2 = () => {
 
 				There were a total of 5 rounds. 1 initial shortlisting coding test followed by 3 Technical Interview Rounds and 1 HR Round on the interview day.
 
-				<h3>Coding round. How many rounds and the degree of difficulty? How much expertise do you need to clear the round?</h3><br/>
+				<h3>How many rounds and the degree of difficulty? How much expertise do you need to clear the round?</h3><br/>
 
 				There were 3 problems in the shortlisting test. One of them (3rd one) was difficult for me. The other two was of medium difficulty. I would say, being rated >= "expert" on Codeforces would be good enough to be able to solve 2 problems full. I was also able to solve the 3rd problem partially.
 
-				<h3>CV : How important was your CV? Would you advise adding things which are not completely true in CV?</h3><br/>
+				<h3>How important was your CV? Would you advise adding things which are not completely true in CV?</h3><br/>
 
 				The interviewer asked about my CV in the 2nd Tech round on the interview day. All of the questions about my CV were from my past internship. I would definitely advice against writing any false pieces of information on your CV.
 
-				<h3>Duration of intern.</h3><br/>
+				<h3>Duration of intern?</h3><br/>
 
 				8 weeks
 
@@ -33,7 +33,7 @@ const art2 = () => {
 
 				My manager was a KGP alumni himself, from my department. He always boosted my confidence and guided me throughout the internship. Also, my mentor was extremely helpful and he spoke to me on a regular basis. I did enjoy every moment with the team.
 
-				<h3>Main project or objective during your intern.</h3><br/>
+				<h3>Main project or objective during your intern?</h3><br/>
 
 				I worked at Salesforce's Health Cloud. My project was to build an application that aimed to recognize, analyse and store data automatically, directly from medical voice conversations. During the internship, I developed a prototype app for healthcare registrars that mitigated their role in registering, updating or fetching patient details, using the NLP domain of automating storage of patient interactions.
 
@@ -41,7 +41,7 @@ const art2 = () => {
 
 				Salesforce has one the best work cultures in the world. It is currently (2021) the 2nd best company in the world to work for according to Fortune (link - https://fortune.com/best-companies/2021/). I worked for about 3-5 hours a day on average. They provided everything I needed for the internship, along with awesome gifts and swags on regular intervals. The employees are always happy, motivated and ready to clear all your doubts and everyone in the company was just a ping on Slack away.
 
-				<h3>Were Important tasks given to you or any input you gave to your project manager which proved to be useful?</h3><br/>
+				<h3>Were important tasks given to you or any input you gave to your project manager which proved to be useful?</h3><br/>
 
 				My project was a prototype of one of the breakthroughs Salesforce India's Health Cloud was planning for some time. The healthcare industry is moving towards ensuring easier access and exchange of medical information. My project was to create a very small MVP for the bigger picture application. We made key decisions while working on the project and I feel proud to have been a part of this mission.
 
@@ -49,7 +49,7 @@ const art2 = () => {
 
 				I often had conversations about the tech being used in the project with the team and had suggested some ways at some junctures. The team was always appreciative of my suggestions and provided valuable alternatives in case I was wrong.
 
-				<h3>Overall CDC experience? Any advice for improving the process down the line?</h3><br/>
+				<h3>What was your overall CDC experience? Any advice for improving the process down the line?</h3><br/>
 
 				It was amazing for me. I think the process is well structured and while most colleges have much lesser companies hiring from them, CDC plays a good role in KGP.
 
@@ -59,11 +59,10 @@ const art2 = () => {
 				className= "toHome"
 				onClick={() => {
 						console.log("tohome clicked");
-						window.location.href = '/abj-blogs/';
 					}
 				} />
 		</div>
 	)
 }
 
-export default art2
+export default art2;
