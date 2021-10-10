@@ -63,8 +63,11 @@ DUE CREDITS TO THEM
   font-family: "Roboto Mono";
 }
 
+.toggleButton {
+  background-color: #e5c07b !important;
+}
+
 body {
-  padding: 1.25em;
   background-color: #282c34;
   color: #abb2bf;
   font-family: "Roboto Mono";
@@ -72,6 +75,8 @@ body {
   line-height: 1.375em;
   margin: 0 auto;
   max-width: 60em;
+  padding-bottom: 1em;
+  padding-top: 1em;
 }
 
 ::-webkit-scrollbar {
@@ -89,10 +94,6 @@ blockquote {
 a {
   color: #c678dd;
   text-decoration: none;
-}
-
-li {
-  color: #98c379;
 }
 
 a:hover {

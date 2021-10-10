@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
+import Button from './components/Button';
 import Main from './Main';
 import "./syles.css";
 
@@ -12,13 +13,18 @@ const App = () => {
 	const [darkMode, setDarkMode] = useState(storedDarkMode);
 	localStorage.setItem("DARK_MODE", darkMode);
 	return (
-		<div className='App' data-theme={darkMode ? "dark" : "light"}>
-			<button onClick={toggleDarkMode}>
-  Toggle Dark Mode
-			</button>
-
+		<div className='App'>
+			<Button
+				text={darkMode ? "Light Mode" : "Dark Mode"}
+				className= "toggleButton"
+				onClick={() => {
+						toggleDarkMode();
+					}
+				} />
 			<Header />
+			<div className='Main' data-theme={darkMode ? "dark" : "light"}>
 			<Main />
+			</div>
 		</div>
 	)
 };
