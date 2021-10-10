@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Button from './components/Button';
+import Footer from './components/Footer';
 import Main from './Main';
 import "./syles.css";
 
@@ -15,16 +16,18 @@ const App = () => {
 	return (
 		<div className='App'>
 			<Button
-				text={darkMode ? "Light Mode" : "Dark Mode"}
+				text={darkMode ? "Light Mode 🔦" : "Dark Mode 🌚"}
 				className= "toggleButton"
 				onClick={() => {
 						toggleDarkMode();
 					}
 				} />
 			<Header />
+			<br/>
 			<div className='Main' data-theme={darkMode ? "dark" : "light"}>
 			<Main />
 			</div>
+			<Footer />
 		</div>
 	)
 };
