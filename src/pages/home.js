@@ -32,8 +32,8 @@ const Home = () => {
 		<div className="Home">
 			{/* BLOGS MAY HAVE BACK TO THIS ARTICLE INSTEAD */}
 			<div style={{maxWidth: '90%', paddingLeft: '5%', top: '-1em', position: 'relative'}}>
-			<RecentBlogsHeading />
-			<Blogs blogList={blog} />
+				<RecentBlogsHeading />
+				<Blogs blogList={blog} />
 			</div>
 			<Footer
 				isBlogsHomePage = {true}
