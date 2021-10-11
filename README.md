@@ -1,4 +1,5 @@
 # ABJ-BLOGS  
+[![wakatime](https://wakatime.com/badge/github/AbhJ/abj-blogs.svg)](https://wakatime.com/badge/github/AbhJ/abj-blogs)  
 This is my minimalist blog app where I write about tech and software. 
 The app has been hosted at: [Link](https://abhj.github.io/abj-blogs).
 Sometimes I also write about other nerdy topics too. 
