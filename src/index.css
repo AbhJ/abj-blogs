@@ -78,7 +78,7 @@ body {
   font-size: 0.875em;
   line-height: 1.375em;
   margin: 0 auto;
-  max-width: min(90%, 70em);
+  max-width: min(100%, 70em);
   padding-bottom: 1em;
   padding-top: 1em;
 }
@@ -89,7 +89,6 @@ body {
 
 pre {
   color: #e5c07b;
-  word-break: break-all; 
   word-wrap: break-word;
   white-space: pre;
   white-space: -moz-pre-wrap; 
