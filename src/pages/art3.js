@@ -7,9 +7,8 @@ const art3 = () => {
 		<div>
 			<div style={{maxWidth: '90%', paddingLeft: '5%', top: '-1em', position: 'relative'}}>
 				<h2>Languages of the future:</h2>
-				<pre>Which Languages may dominate in the near future<span className='div-no-mobile'> (2025-2030)</span>?<br/>
-					This blog is also available in <a href="https://youtu.be/B4uNoxvmryw">video</a> format.</pre>
-				Some languages which I don't see going out of demand are definitely:
+				<pre>This blog is also available in <a href="https://youtu.be/B4uNoxvmryw">video</a> format.</pre>
+				Some languages which I don't see going out of demand (until 2030 hopefully) are definitely:
 				<ul>
 					<li> 
 						<h3>Java:</h3><br/> Most companies in tech use Java to build their backend applications. Java is very fast as a language, is mainly based on OOPS (which makes code modular and clean to read), and most importantly is independent of platform (all you need to run it is the JVM - Java Virtual Machine). One of the best features I love about Java is its efficient exception handling and precise (compared to C++) error messages. Since Android is so popular these days, the only language that may replace Java would be Kotlin.
