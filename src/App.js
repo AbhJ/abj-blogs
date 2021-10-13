@@ -15,6 +15,7 @@ const App = () => {
 	localStorage.setItem("DARK_MODE", darkMode);
 	return (
 		<div className='App'>
+			<div className='div-no-mobile'>
 			<Button
 				text={darkMode ? "Light Mode 🔦" : "Dark Mode 🌚"}
 				className= "toggleButton"
@@ -22,6 +23,16 @@ const App = () => {
 						toggleDarkMode();
 					}
 				} />
+			</div>
+			<div className='div-only-mobile' style={{paddingLeft: '5%'}}>
+			<Button
+				text={darkMode ? "Light Mode 🔦" : "Dark Mode 🌚"}
+				className= "toggleButton"
+				onClick={() => {
+						toggleDarkMode();
+					}
+				} />
+			</div>
 			<Header />
 			<br/>
 			<div className='Main' data-theme={darkMode ? "dark" : "light"}>

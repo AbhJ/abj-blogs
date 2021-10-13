@@ -6,7 +6,7 @@ const art2 = () => {
 	return (
 		<div>
 			<div style={{maxWidth: '90%', paddingLeft: '5%', paddingBottom: '1em', top: '-1em', position: 'relative'}}>
-				<h2>Internship at Salesforce:</h2>
+				<h2>My Internship at Salesforce:</h2>
 
 				<pre>This article has also been published at <a href="https://internphile.herokuapp.com/intern/Abhijay_Mitra">link</a>.<br/>
 					Similar video has also been published at <a href = "https://youtu.be/aR9AilNbtio">link</a>.</pre>

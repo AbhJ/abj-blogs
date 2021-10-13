@@ -6,7 +6,7 @@ const art1 = () => {
 	return (
 		<div>
 			<div style={{maxWidth: '90%', paddingLeft: '5%', paddingBottom: '1em', top: '-1em', position: 'relative'}}>
-				<h2>A tribute to Kentaro Miura:</h2>
+				<h2>A Tribute to Kentaro Miura:</h2>
 
 				<pre>This blog is also available in <a href="https://youtu.be/0gHNucQqVNo">video</a> format.</pre>
 
