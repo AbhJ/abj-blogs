@@ -12,18 +12,23 @@ const Home = () => {
 	const [blog, /* setBlogs */] = useState(
 		[
 			{
+				id: 4,
+				headLine: "My Review of 'Zero To One'",
+				day: "Oct 12 2021"
+			},
+			{
 				id: 3,
-				headLine: "Languages of the future",
+				headLine: "Languages of the Future",
 				day: "Aug 21 2021"
 			},
 			{
 				id: 2,
-				headLine: "Internship at Salesforce",
+				headLine: "My Internship at Salesforce",
 				day: "Aug 20 2021"
 			},
 			{
 				id: 1,
-				headLine: "A tribute to Kentaro Miura",
+				headLine: "A Tribute to Kentaro Miura",
 				day: "Jul 27 2021",
 			}
 		]
