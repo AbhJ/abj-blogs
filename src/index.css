@@ -67,8 +67,14 @@ DUE CREDITS TO THEM
   font-family: "Roboto Mono";
 }
 
-.toggleButton {
+.toggleButtonDar {
+  background-color: #282c34 !important;
+  color: #e5c07b !important;
+}
+
+.toggleButtonLig {
   background-color: #e5c07b !important;
+  color: #282c34 !important;
 }
 
 body {

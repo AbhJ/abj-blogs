@@ -15,7 +15,7 @@ const Button = (props) => {
 			</center>
 		</div>
 	)
-	if(props.className === 'toggleButton')
+	if(props.className === 'toggleButtonDar' || props.className === 'toggleButtonLig')
 	return (
 		<div style={{margin: '0'}}>
 				<button style={ButtonStyle} onClick={props.onClick} className={props.className} text={props.text} >
