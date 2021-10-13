@@ -17,8 +17,8 @@ const App = () => {
 		<div className='App'>
 			<div className='div-no-mobile'>
 			<Button
-				text={darkMode ? "Light Mode 🔦" : "Dark Mode 🌚"}
-				className= "toggleButton"
+				text={darkMode ? "Lit Mode 🌕" : "Dim Mode 🌑"}
+				className= {darkMode ? "toggleButtonDar" : "toggleButtonLig"}
 				onClick={() => {
 						toggleDarkMode();
 					}
@@ -26,8 +26,8 @@ const App = () => {
 			</div>
 			<div className='div-only-mobile' style={{paddingLeft: '5%'}}>
 			<Button
-				text={darkMode ? "Light Mode 🔦" : "Dark Mode 🌚"}
-				className= "toggleButton"
+				text={darkMode ? "Lit Mode 🌕" : "Dim Mode 🌑"}
+				className= {darkMode ? "toggleButtonDar" : "toggleButtonLig"}
 				onClick={() => {
 						toggleDarkMode();
 					}
