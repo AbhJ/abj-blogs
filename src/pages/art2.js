@@ -10,6 +10,11 @@ const art2 = () => {
 
 				<pre>This article has also been published at <a href="https://internphile.herokuapp.com/intern/Abhijay_Mitra">link</a>.<br/>
 					Similar video has also been published at <a href = "https://youtu.be/aR9AilNbtio">link</a>.</pre>
+				<center>
+					<img src='https://github.com/AbhJ/abhj/blob/master/image/abj_macbook.png?raw=true' alt='coding during internship' width='60%' />
+					<br/>
+					<pre>Me coding while interning at Salesforce!!! 😎</pre>
+				</center>
 				<h3>Why did you choose the company?</h3><br/>
 
 				I liked the company.

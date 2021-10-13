@@ -9,7 +9,11 @@ const art1 = () => {
 				<h2>A Tribute to Kentaro Miura:</h2>
 
 				<pre>This blog is also available in <a href="https://youtu.be/0gHNucQqVNo">video</a> format.</pre>
-
+				<center>
+					<img src='https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/Kentaro_Miura.png/220px-Kentaro_Miura.png' alt='Miura photo' width='60%' />
+					<br/>
+					<pre>Kentaro Miura (source: <a href='https://en.wikipedia.org/wiki/Kentaro_Miura'>Wikipedia</a>)</pre>
+				</center>
 				This blog is to appreciate the legend of Kentaro Miura. It's been around a year, I started reading Berserk and I promise the effect it had on me is worth a lifetime. <br /><br />
 				Miura is phenomenal, his art is majestic, the most superior I have ever seen and his storytelling skills are like magic. <br /><br />
 				This year, Miura left us suddenly for heavenly abode leaving all Otakus and literature lovers in as much pain as his signature character Guts. Miura has had a deeper impact on me than anyone else in my life. <br /><br />
