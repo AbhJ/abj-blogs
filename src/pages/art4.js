@@ -8,11 +8,16 @@ const art4 = () => {
 			<div style={{maxWidth: '90%', paddingLeft: '5%', top: '-1em', position: 'relative'}}>
 				<h2>My Review of 'Zero To One':</h2>
 				<pre>This blog is also available in <a href="#">video</a> format.</pre>
-				Apart from being a guy who reads and writes code, I am also an avid reader of books and manga. 
-				<br/>
-				You can find about my likes and recommendations from my <a href='https://www.goodreads.com/abhj'>Goodreads profile</a>.
+				Apart from being a guy who reads and writes code, I am also an avid reader of books and manga. You can find about my likes and recommendations from my <a href='https://www.goodreads.com/abhj'>Goodreads profile</a>.
 				<br/><br/>
 				I recently finished the book 'Zero To One' by Peter Theil and thought of noting stuff down somewhere for my future use.
+				<br/>
+				<br/>
+				<center>
+					<img src='https://images-na.ssl-images-amazon.com/images/I/71Xygne8+qL.jpg' alt='book image' width='60%' />
+					<br/>
+					<pre>Cover of Zero to One (source: <a href='https://en.wikipedia.org/wiki/Zero_to_One'>Wikipedia</a>)</pre>
+				</center>
 				<ul>
 					<li> 
 						<h3>Why are monopolies so successful?</h3>
@@ -39,14 +44,15 @@ const art4 = () => {
 					<li>
 						<h3>What to consider when starting tech companies?</h3>
 						<br/>
-						If you focus on near-term growth above all else, you miss the most important question you should be asking: will this business still be around a decade from now? 
-						<br/>
-						Numbers alone won't tell you the answer. Instead you must think critically about the qualitative characteristics of your business.
+						If one focususe on near-term growth above all else, one misses the most important question: Will this business still be around a decade from now? 
+						<br/><br/>
+						Numbers alone won't tell one the answer. Instead one must think critically about the qualitative characteristics of ones own business.
 					</li>
 					<li>
 						<h3>How good should the proprietery tech be?</h3>
 						<br/>
-						Theil says that a good rule of thumb is that proprietary technology must be at least 10 times better than its closest substitute in some important dimension to lead to a real monopolistic advantage. Anything less than an order of magnitude better will probably be perceived as a marginal improvement and will be hard to sell, especially in an already crowded market.
+						Theil says that a good rule of thumb is that proprietary technology must be at least 10 times better than its closest substitute in some important dimension to lead to a real monopolistic advantage. 
+						<br/><br/>Anything less than an order of magnitude better will probably be perceived as a marginal improvement and will be hard to sell, especially in an already crowded market.
 					</li>
 					<li>
 						<h3>How does sales work?</h3>
