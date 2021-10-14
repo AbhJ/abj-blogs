@@ -7,7 +7,7 @@ const art4 = () => {
 		<div>
 			<div style={{maxWidth: '90%', paddingLeft: '5%', top: '-1em', position: 'relative'}}>
 				<h2>My Review of 'Zero To One':</h2>
-				<pre>This blog is also available in <a href="#">video</a> format.</pre>
+				<pre>This blog is also available in <a href="https://youtu.be/j8kUFnLK1zU">video</a> format.</pre>
 				Apart from being a guy who reads and writes code, I am also an avid reader of books and manga. You can find about my likes and recommendations from my <a href='https://www.goodreads.com/abhj'>Goodreads profile</a>.
 				<br/><br/>
 				I recently finished the book 'Zero To One' by Peter Theil and thought of noting stuff down somewhere for my future use.
@@ -44,7 +44,7 @@ const art4 = () => {
 					<li>
 						<h3>What to consider when starting tech companies?</h3>
 						<br/>
-						If one focususe on near-term growth above all else, one misses the most important question: Will this business still be around a decade from now? 
+						If one focuses on near-term growth above all else, one misses the most important question: Will this business still be around a decade from now? 
 						<br/><br/>
 						Numbers alone won't tell one the answer. Instead one must think critically about the qualitative characteristics of ones own business.
 					</li>
