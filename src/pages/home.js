@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from "../components/Button"
 import Blogs from "../components/Blogs"
 import Footer from "../components/Footer"
 import RecentBlogsHeading from "../components/RecentBlogsHeading.js"

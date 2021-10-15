@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from "../components/Button"
 import Footer from "../components/Footer"
 
 const art5 = () => {
@@ -7,8 +6,8 @@ const art5 = () => {
 		<div>
 			<div style={{maxWidth: '90%', paddingLeft: '5%', top: '-1em', position: 'relative'}}>
 				<h2>Updates in Ubuntu 21.10:</h2>
-				<pre>This blog is also available in <a href="#">video</a> format.</pre>
-				In this blog, we shall be dicussing the updates and improvements in Ubuntu 21.10.
+				<pre>This blog is also available in <a href="https://youtu.be/JRt2PA3zCFY">video</a> format.</pre>
+				In this blog, we shall be discussing the updates and improvements in Ubuntu 21.10.
 				Please note that this version is <b>NOT</b> an LTS (Long-term support) version.
 				<br/>
 				<br/>
