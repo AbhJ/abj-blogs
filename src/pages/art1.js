@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from "../components/Button"
 import Footer from "../components/Footer"
 
 const art1 = () => {
@@ -10,7 +9,7 @@ const art1 = () => {
 
 				<pre>This blog is also available in <a href="https://youtu.be/0gHNucQqVNo">video</a> format.</pre>
 				<center>
-					<img src='https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/Kentaro_Miura.png/220px-Kentaro_Miura.png' alt='Miura photo' width='60%' />
+					<img src='https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/Kentaro_Miura.png/220px-Kentaro_Miura.png' alt='Kentaro Miura' width='60%' />
 					<br/>
 					<pre>Kentaro Miura (source: <a href='https://en.wikipedia.org/wiki/Kentaro_Miura'>Wikipedia</a>)</pre>
 				</center>

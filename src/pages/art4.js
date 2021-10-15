@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from "../components/Button"
 import Footer from "../components/Footer"
 
 const art4 = () => {
@@ -14,7 +13,7 @@ const art4 = () => {
 				<br/>
 				<br/>
 				<center>
-					<img src='https://images-na.ssl-images-amazon.com/images/I/71Xygne8+qL.jpg' alt='book image' width='60%' />
+					<img src='https://images-na.ssl-images-amazon.com/images/I/71Xygne8+qL.jpg' alt='book cover' width='60%' />
 					<br/>
 					<pre>Cover of Zero to One (source: <a href='https://en.wikipedia.org/wiki/Zero_to_One'>Wikipedia</a>)</pre>
 				</center>
