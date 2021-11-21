@@ -1,4 +1,6 @@
-# ABJ-BLOGS   
+# ABJ-BLOGS  
+[![CodeQL](https://github.com/AbhJ/abj-blogs/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/AbhJ/abj-blogs/actions/workflows/codeql-analysis.yml)  
+  
 This is my minimalist blog app where I write about tech and software. 
 The app has been hosted at: [Link](https://abhj.github.io/abj-blogs).
 Sometimes I also write about other nerdy topics too. 
