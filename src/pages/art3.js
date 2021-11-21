@@ -16,7 +16,6 @@ const art3 = () => {
 						<h3>Swift:</h3><br/> Well who doesn't love Apple? Even Apple haters seem to love its clean and snappy UI. Though I don't have personal experience with Swift till now, its memory management is of high repute. As long as Apple is the world's most valuable company, Swift isn't going anywhere. Swift's ease of coding UI stuff will keep it in demand.
 					</li>
 					<li>
-						{/*eslint-disable-next-line*/}
 						<h3>Javascript:</h3><br/> Though Javascript may be annoying at times, there's no denying of the fact that it is one of the select few languages that are extensively used in backend and frontend, server side and client side, and has entensive well designed libraries and frameworks for most industrial use cases. An application written in Javascript is almost certainly faster than a "similar" one in Python. Also, Node JS (written partly in C++) is super fast and its asynchronous multi-threaded I/O model improve the performance even more. Javascript is definitely going to stay for time in the future.
 					</li>
 					<li>
