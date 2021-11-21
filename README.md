@@ -1,5 +1,5 @@
 # ABJ-BLOGS  
-[![CodeQL](https://github.com/AbhJ/abj-blogs/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/AbhJ/abj-blogs/actions/workflows/codeql-analysis.yml)  
+[![CodeQL](https://github.com/AbhJ/abj-blogs/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/AbhJ/abj-blogs/actions/workflows/codeql-analysis.yml)
 [![Lint Code Base](https://github.com/AbhJ/abj-blogs/actions/workflows/super-linter.yml/badge.svg)](https://github.com/AbhJ/abj-blogs/actions/workflows/super-linter.yml)  
   
 This is my minimalist blog app where I write about tech and software. 
