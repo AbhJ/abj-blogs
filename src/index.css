@@ -36,6 +36,10 @@ DUE CREDITS TO THEM
   padding: 0.5em;
 }
 
+.name-of-blog {
+ /* LEFT WITH INTENTION OF FUTURE IDEAS ABOUT DESIGN  */
+}
+
 .line::after {
   content: '';
   width: 100%;
