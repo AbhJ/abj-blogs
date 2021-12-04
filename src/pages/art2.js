@@ -6,7 +6,7 @@ const art2 = () => {
 		<div>
 			<div style={{maxWidth: '90%', paddingLeft: '5%', paddingBottom: '1em', top: '-1em', position: 'relative'}}>
 				<h2>My Internship at Salesforce:</h2>
-
+				<h4>This blog is about my internship experience at Salesforce India. This was a (remote - due to <a href='https://en.wikipedia.org/wiki/COVID-19'>Covid-19</a>) Software Engineering Internship I took in Summer 2021. </h4>
 				<pre>This article has also been published at <a href="https://internphile.herokuapp.com/intern/Abhijay_Mitra">link</a>.<br/>
 					Similar video has also been published at <a href = "https://youtu.be/aR9AilNbtio">link</a>.</pre>
 				<center>
@@ -16,7 +16,7 @@ const art2 = () => {
 				</center>
 				<h3>Why did you choose the company?</h3><br/>
 
-				I liked the company.
+				Salesforce is famous for its amazing work culture. I loved the way Salesforce was revolutionising modern workflow even during the unprecedented Covid-19 times.
 
 				<h3>How many rounds and what rounds?</h3><br/>
 
@@ -40,8 +40,7 @@ const art2 = () => {
 
 				<h3>Main project or objective during your intern?</h3><br/>
 
-				I worked at Salesforce's Health Cloud. My project was to build an application that aimed to recognize, analyse and store data automatically, directly from medical voice conversations. During the internship, I developed a prototype app for healthcare registrars that mitigated their role in registering, updating or fetching patient details, using the NLP domain of automating storage of patient interactions.
-
+				I worked at Salesforce's Health Cloud. My project was to build an application that aimed to recognize, analyse and store data automatically, directly from medical voice conversations. During the internship, I developed a prototype app for healthcare registrars that mitigated their role in registering, updating or fetching patient details, using the NLP domain of automating storage of patient interactions. I can't provide details to my work as it is confidential.
 				<h3>How was the work culture in the company?</h3><br/>
 
 				Salesforce has one the best work cultures in the world. It is currently (2021) the 2nd best company in the world to work for according to <a href='https://fortune.com/best-companies/2021'>Fortune</a>. I worked for about 5 hours a day on average. They provided everything I needed for the internship, along with awesome gifts and swags on regular intervals. The employees are always happy, motivated and ready to clear all your doubts and everyone in the company was just a ping on Slack away.
@@ -53,10 +52,6 @@ const art2 = () => {
 				<h3>Anything you had to learn before the start of intern?</h3><br/>
 
 				I often had conversations about the tech being used in the project with the team and had suggested some ways at some junctures. The team was always appreciative of my suggestions and provided valuable alternatives in case I was wrong.
-
-				<h3>What was your overall CDC experience? Any advice for improving the process down the line?</h3><br/>
-
-				It was amazing for me. I think the process is well structured and while most colleges have much lesser companies hiring from them, CDC plays a good role in KGP.
 			</div>
 			<Footer
 				isBlogsArticle = {true}
