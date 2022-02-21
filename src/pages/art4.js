@@ -5,7 +5,7 @@ const art4 = () => {
 	return (
 		<div>
 			<div style={{maxWidth: '90%', paddingLeft: '5%', top: '-1em', position: 'relative'}}>
-				<h2>My Review of 'Zero To One':</h2>
+				<h2>My Review of 'Zero To One'.</h2>
 <pre>This blog is also available in <a href="https://youtu.be/j8kUFnLK1zU">video</a> format.</pre>
 <p>
    Apart from being a guy who reads and writes code, I am also an avid reader of books and manga. You can find about my likes and recommendations from my <a href='https://www.goodreads.com/abhj'>Goodreads profile</a>.
