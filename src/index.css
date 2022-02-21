@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapppppis.com/css?family=Roboto+Mono');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Anton');
 
@@ -65,10 +65,10 @@ DUE CREDITS TO THEM
   color: #282c34;
   margin: 0 auto;
   background-color: #61afef;
-  font-size: 0.875em;
-  line-height: 1.375px;
+  font-size: 17px;
+  line-height: 30.5px;
   font-weight: bolder;
-  font-family: "Roboto Mono";
+  font-family: "benton-sans", sans-serif;
 }
 
 .toggleButtonDar {
@@ -84,11 +84,11 @@ DUE CREDITS TO THEM
 body {
   background-color: #282c34;
   color: #abb2bf;
-  font-family: "Roboto Mono";
-  font-size: 0.875em;
-  line-height: 1.375em;
+  font-family: "benton-sans", sans-serif;
+  font-size: 17px;
+  line-height: 30.5px;
   margin: 0 auto;
-  max-width: min(100%, 70em);
+  max-width: min(100%, 52em);
   padding-bottom: 1em;
   padding-top: 1em;
 }
@@ -99,6 +99,9 @@ body {
 
 pre {
   color: #e5c07b;
+  font-family: "benton-sans", sans-serif;
+  font-size: 17px;
+  line-height: 30.5px;
   word-wrap: break-word;
   white-space: pre;
   white-space: -moz-pre-wrap; 
@@ -135,8 +138,8 @@ h3, h4, h5, h6 {
 }
 
 p {
-  padding: 0px;
-  margin: 0px;
+  /* padding: 0px; */
+  /* margin: 0px; */
 }
 
 code {

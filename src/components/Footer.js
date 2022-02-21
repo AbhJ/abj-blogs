@@ -88,7 +88,7 @@ const foot = {
 	zIndex: '100000',
 	color: "#abb2bf",
 	backgroundColor: "#282c34",
-	paddingTop: '2em',
+	paddingTop: '1em',
 	// fontSize: "1em",
 	// lineHeight: "1.375em",
 	// fontWeight: "bolder",

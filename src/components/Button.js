@@ -45,10 +45,10 @@ const ButtonStyle = {
 	borderRadius: "0.25em",
 	color: "#282c34",
 	backgroundColor: "#61afef",
-	fontSize: "1em",
-	lineHeight: "1.375em",
+	  fontSize: "17px",
+	  lineHeight: "30.5px",
 	fontWeight: "bolder",
-	fontFamily: "Roboto Mono",
+	fontFamily: "benton-sans",
 	cursor: "pointer"
 }
 
