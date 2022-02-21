@@ -5,7 +5,7 @@ const art3 = () => {
 	return (
 		<div>
 			<div style={{maxWidth: '90%', paddingLeft: '5%', top: '-1em', position: 'relative'}}>
-				<h2>Languages of the Future:</h2>
+				<h2>Languages of the Future.</h2>
 				<pre>This blog is also available in <a href="https://youtu.be/B4uNoxvmryw">video</a> format.</pre>
 				Some languages which I don't see going out of demand (until 2030 hopefully) are definitely:
 				<ul>
