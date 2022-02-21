@@ -7,7 +7,7 @@ const Blog = ({ blog }) => {
 		<div>
 			{blog.id}) <span className='name-of-blog'> <Link to={"/abj-blogs/blog" + blog.id}>{blog.headLine}</Link></span> 
 			<span style={{ float: "right", paddingRight: "1.25em" }} className='div-no-mobile'>
-				created: {blog.day}
+{blog.day}
 			</span>
 			<hr/>
 		</div>
