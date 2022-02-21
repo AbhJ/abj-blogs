@@ -25,7 +25,6 @@ const App = () => {
 					} />
 			</div>
 			<Header />
-			<br/>
 			<div className='Main' data-theme={darkMode ? "dark" : "light"}>
 				<Main />
 			</div>

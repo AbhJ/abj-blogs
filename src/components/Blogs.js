@@ -8,11 +8,12 @@ const Blogs = ({ blogList }) => {
 
 	return (
 		<div style={{wordWrap: 'break-word'}}>
+			<p>
 			<hr />
 			{blogList.map((blog) => (
 				<Blog key={blog.id} blog = {blog} />
 			))}
-			<br />
+			</p>
 		</div>
 	)
 }
