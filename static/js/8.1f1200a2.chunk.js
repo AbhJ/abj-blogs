@@ -1,0 +1,2 @@
+(this["webpackJsonpabj-blogs"]=this["webpackJsonpabj-blogs"]||[]).push([[8],{42:function(s,a,t){"use strict";t.r(a),a.default=t.p+"static/media/art2.53328ba1.sublime-workspace"}}]);
+//# sourceMappingURL=8.1f1200a2.chunk.js.map
