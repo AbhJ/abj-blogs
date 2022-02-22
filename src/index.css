@@ -37,6 +37,7 @@ DUE CREDITS TO THEM
 }
 
 .name-of-blog {
+	padding-left: 0.4em;
  /* LEFT WITH INTENTION OF FUTURE IDEAS ABOUT DESIGN  */
 }
 
@@ -116,6 +117,11 @@ blockquote {
 a {
   color: #c678dd;
   text-decoration: none;
+}
+
+/* ALTERNATIVE TO TRADITIONAL hr */
+.horizontal-rule {
+  border-top: 0.1em solid;
 }
 
 a:hover {

@@ -9,7 +9,7 @@ const Blogs = ({blogList}) => {
 	return (
 		<div style={{wordWrap: 'break-word'}}>
 			<p>
-				<hr />
+				<div class="horizontal-rule"></div>
 				{blogList.map((blog) => (
 					<Blog key={blog.id} blog={blog} />
 				))}
@@ -17,5 +17,7 @@ const Blogs = ({blogList}) => {
 		</div>
 	)
 }
+
+
 
 export default Blogs
