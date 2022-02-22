@@ -12,8 +12,7 @@ import Button from "./Button"
 // prop types makes react like typescript than vannila javascript
 
 const Footer = (props) => {
-	if (props.isBlogsHomePage === true)
-	{
+	if (props.isBlogsHomePage === true) {
 		return (
 			<div style={foot}>
 				<Button
@@ -61,8 +60,7 @@ const Footer = (props) => {
 				</div>
 			</div>);
 	}
-	if (props.isBlogsArticle === true)
-	{
+	if (props.isBlogsArticle === true) {
 		return (
 			<div style={foot}>
 				<Button
