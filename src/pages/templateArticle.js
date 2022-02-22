@@ -6,16 +6,16 @@ const art = () => {
 		<div>
 			<h2></h2>
 
-				{/* <pre>This article has also been published at <a href="">link</a></pre> */}
+			{/* <pre>This article has also been published at <a href="">link</a></pre> */}
 
-				<h3>Why did you choose the company?</h3><br/>
+			<h3>Why did you choose the company?</h3><br />
 
-				I liked the company.
+			I liked the company.
 
-			<br/><br/>
+			<br /><br />
 			<Button
 				text="To HomePage"
-				className= "toHome"
+				className="toHome"
 				onClick={() => {
 					console.log("tohome clicked");
 				}

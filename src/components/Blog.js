@@ -1,17 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
-const Blog = ({ blog }) => {
+const Blog = ({blog}) => {
 	return (
 		<div>
-			{blog.id}) <span className='name-of-blog'> <Link to={"/abj-blogs/blog" + blog.id}>{blog.headLine}</Link></span> 
-			<span style={{ float: "right", paddingRight: "1.25em" }} className='div-no-mobile'>
-{blog.day}
+			{blog.id}) <span className='name-of-blog'> <Link to={"/abj-blogs/blog" + blog.id}>{blog.headLine}</Link></span>
+			<span style={{float: "right", paddingRight: "1.25em"}} className='div-no-mobile'>
+				{blog.day}
 			</span>
-			<hr/>
+			<hr />
 		</div>
-);
+	);
 }
 
 Blog.propTypes = {

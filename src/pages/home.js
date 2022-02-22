@@ -45,7 +45,7 @@ const Home = () => {
 				<Blogs blogList={blog} />
 			</div>
 			<Footer
-				isBlogsHomePage = {true}
+				isBlogsHomePage={true}
 			/>
 		</div>
 	)

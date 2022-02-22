@@ -18,7 +18,7 @@ const App = () => {
 			<div style={{paddingLeft: '5%'}}>
 				<Button
 					text={darkMode ? "Lit Mode 🌕" : "Dim Mode 🌑"}
-					className= {darkMode ? "toggleButtonDar" : "toggleButtonLig"}
+					className={darkMode ? "toggleButtonDar" : "toggleButtonLig"}
 					onClick={() => {
 						toggleDarkMode();
 					}
