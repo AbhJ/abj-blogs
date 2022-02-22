@@ -68,7 +68,7 @@ DUE CREDITS TO THEM
   font-size: 17px;
   line-height: 30.5px;
   font-weight: bolder;
-  font-family: "benton-sans", sans-serif;
+  font-family: Tahoma, Geneva, sans-serif;
 }
 
 .toggleButtonDar {
@@ -84,7 +84,7 @@ DUE CREDITS TO THEM
 body {
   background-color: #282c34;
   color: #abb2bf;
-  font-family: "benton-sans", sans-serif;
+  font-family: Tahoma, Geneva, sans-serif;
   font-size: 17px;
   line-height: 30.5px;
   margin: 0 auto;
@@ -99,7 +99,7 @@ body {
 
 pre {
   color: #e5c07b;
-  font-family: "benton-sans", sans-serif;
+  font-family: Tahoma, Geneva, sans-serif;
   font-size: 17px;
   line-height: 30.5px;
   word-wrap: break-word;
