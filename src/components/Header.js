@@ -1,6 +1,6 @@
 import React from 'react'
 import propTypes from 'prop-types'
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 // prop types makes react like typescript than vannila javascript
 

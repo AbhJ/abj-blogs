@@ -104,7 +104,7 @@ pre {
   line-height: 30.5px;
   word-wrap: break-word;
   white-space: pre;
-  white-space: -moz-pre-wrap; 
+  white-space: -moz-pre-wrap;
   white-space: pre-wrap;
   white-space: pre\9;
 }

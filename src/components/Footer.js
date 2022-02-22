@@ -12,12 +12,13 @@ import Button from "./Button"
 // prop types makes react like typescript than vannila javascript
 
 const Footer = (props) => {
-	if(props.isBlogsHomePage === true){
-		return(
-			<div style={foot}>	
+	if (props.isBlogsHomePage === true)
+	{
+		return (
+			<div style={foot}>
 				<Button
 					text="To Portfolio"
-					className= "toPortfolio"
+					className="toPortfolio"
 					onClick={() => {
 						// console.log("ABJ clicked");
 						// if (window.confirm("You will be redirected to ABJ public portfolio. Do you want to leave this page?"))
@@ -60,12 +61,13 @@ const Footer = (props) => {
 				</div>
 			</div>);
 	}
-	if(props.isBlogsArticle === true){
+	if (props.isBlogsArticle === true)
+	{
 		return (
-			<div style={foot}>	
+			<div style={foot}>
 				<Button
 					text="To HomePage"
-					className= "toHome"
+					className="toHome"
 					onClick={() => {
 						console.log("tohome clicked");
 					}
