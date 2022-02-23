@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import Header from './components/Header';
 import Button from './components/Button';
 import Footer from './components/Footer';
+import Copyright from './components/Copyright';
 import Main from './Main';
 import "./syles.css";
 
@@ -14,7 +15,8 @@ const App = () => {
 	const [darkMode, setDarkMode] = useState(storedDarkMode);
 	localStorage.setItem("DARK_MODE", darkMode);
 	return (
-		<div className='App'>
+		<div className={'App'}>
+			<div className={"Non-footer-stuff"}>
 			<div style={{paddingLeft: '5%'}}>
 				<Button
 					text={darkMode ? "Lit Mode 🌕" : "Dim Mode 🌑"}
@@ -25,10 +27,12 @@ const App = () => {
 					} />
 			</div>
 			<Header />
-			<div className='Main' data-theme={darkMode ? "dark" : "light"}>
+			<div className={'Main'} data-theme={darkMode ? "dark" : "light"}>
 				<Main />
 			</div>
+			</div>
 			<Footer />
+			<Copyright />
 		</div>
 	)
 };
