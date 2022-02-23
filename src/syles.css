@@ -1,48 +1,48 @@
 :root {
-    --bg-color: #efdfae;
-    --text-color: #282c34;
-    --pre-color: #665c54;
-    --h2-color: #377375;
-    --h3-color: #719586;
-    --lk-color: #a04b73;
+	--bg-color: #efdfae;
+	--text-color: #282c34;
+	--pre-color: #665c54;
+	--h2-color: #377375;
+	--h3-color: #719586;
+	--lk-color: #a04b73;
 }
 
 [data-theme="dark"] {
-    --bg-color: #282c34;
-    --text-color: #abb2bf;
-    --pre-color: #e5c07b;
-    --h2-color: #61afef;
-    --h3-color: #56b6c2;
-    --lk-color: #c678dd;
+	--bg-color: #282c34;
+	--text-color: #abb2bf;
+	--pre-color: #e5c07b;
+	--h2-color: #61afef;
+	--h3-color: #56b6c2;
+	--lk-color: #c678dd;
 }
 
 .Main {
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    webkit-transition: background 1s ease-out;
-    -moz-transition: background 1s ease-out;
-    -o-transition: background 1s ease-out;
-    transition: background 1s ease-out;
-    border-radius: 0.2em;
-    padding: 2em 0 0 0;
+	background-color: var(--bg-color);
+	color: var(--text-color);
+	webkit-transition: background 1s ease-out;
+	-moz-transition: background 1s ease-out;
+	-o-transition: background 1s ease-out;
+	transition: background 1s ease-out;
+	border-radius: 0.2em;
+	padding: 2em 0 0 0;
 }
 
 .Main hr {
-    border: 1px solid var(--text-color);
+	border: 1px solid var(--text-color);
 }
 
 .Main a {
-    color: var(--lk-color);
+	color: var(--lk-color);
 }
 
 .Main pre {
-    color: var(--pre-color);
+	color: var(--pre-color);
 }
 
 .Main h2 {
-    color: var(--h2-color);
+	color: var(--h2-color);
 }
 
 .Main h3, h4, h5, h6 {
-    color: var(--h3-color);
+	color: var(--h3-color);
 }
