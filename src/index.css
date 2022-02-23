@@ -19,7 +19,6 @@ DUE CREDITS TO THEM
 .pt-4,
 .py-4 {
 }
-body{ min-height:100vh; margin:0; position:relative; }
 .footer {
 	background-color: black;
 	color: #fff;
@@ -99,6 +98,7 @@ body{ min-height:100vh; margin:0; position:relative; }
 }
 
 body {
+	min-height:100vh; margin:0; position:relative;
 	background-color: #282c34;
 	position: relative;
 	color: #abb2bf;
