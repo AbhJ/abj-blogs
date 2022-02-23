@@ -17,19 +17,19 @@ const App = () => {
 	return (
 		<div className={'App'}>
 			<div className={"Non-footer-stuff"}>
-			<div style={{paddingLeft: '5%'}}>
-				<Button
-					text={darkMode ? "Lit Mode 🌕" : "Dim Mode 🌑"}
-					className={darkMode ? "toggleButtonDar" : "toggleButtonLig"}
-					onClick={() => {
-						toggleDarkMode();
-					}
-					} />
-			</div>
-			<Header />
-			<div className={'Main'} data-theme={darkMode ? "dark" : "light"}>
-				<Main />
-			</div>
+				<div style={{paddingLeft: '5%'}}>
+					<Button
+						text={darkMode ? "Lit Mode 🌕" : "Dim Mode 🌑"}
+						className={darkMode ? "toggleButtonDar" : "toggleButtonLig"}
+						onClick={() => {
+							toggleDarkMode();
+						}
+						} />
+				</div>
+				<Header />
+				<div className={'Main'} data-theme={darkMode ? "dark" : "light"}>
+					<Main />
+				</div>
 			</div>
 			<Footer />
 			<Copyright />

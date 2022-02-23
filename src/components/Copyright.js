@@ -12,15 +12,15 @@ import {Link} from "react-router-dom";
 const Copyright = ({copyright}) => {
 	return (
 		<div className={"footer"}>
-		<center>
-		<div className={"copyright py-4 text-white"}>
-			<div className={"container"}>
-				<small>
-					Copyright © AbJ February 2022
-				</small>
-			</div>
-		</div>
-		</center>
+			<center>
+				<div className={"copyright py-4 text-white"}>
+					<div className={"container"}>
+						<small>
+							Copyright © AbJ February 2022
+						</small>
+					</div>
+				</div>
+			</center>
 		</div>
 	);
 }
