@@ -59,6 +59,16 @@ DUE CREDITS TO THEM
     margin-left: 0.5em;
 }
 
+.no-select {
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
 .btn {
     border-radius: 4px;
     text-align: center;
@@ -83,11 +93,25 @@ DUE CREDITS TO THEM
 .toggleButtonDar {
     background-color: #282c34 !important;
     color: #e5c07b !important;
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 
 .toggleButtonLig {
     background-color: #e5c07b !important;
     color: #282c34 !important;
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 
 body {
@@ -174,6 +198,10 @@ h5,
 h6 {
     color: #56b6c2;
     margin-bottom: 0px;
+}
+
+img {
+  border-radius: 5%;
 }
 
 p {

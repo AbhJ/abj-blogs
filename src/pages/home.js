@@ -11,6 +11,11 @@ const Home = () => {
 	const [blog, /* setBlogs */] = useState(
 		[
 			{
+				id: 6,
+				headLine: "God is an introvert",
+				day: "Feb 25 2022"
+			},
+			{
 				id: 5,
 				headLine: "Updates in Ubuntu 21.10",
 				day: "Oct 15 2021"

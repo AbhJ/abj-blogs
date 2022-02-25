@@ -17,7 +17,7 @@ const Footer = (props) => {
 			<div style={foot}>
 				<Button
 					text="To Portfolio"
-					className="toPortfolio"
+					className="toPortfolio no-select"
 					onClick={() => {
 						// console.log("ABJ clicked");
 						// if (window.confirm("You will be redirected to ABJ public portfolio. Do you want to leave this page?"))
@@ -71,7 +71,7 @@ const Footer = (props) => {
 			<div style={foot}>
 				<Button
 					text="To HomePage"
-					className="toHome"
+					className="toHome no-select"
 					onClick={() => {
 						console.log("tohome clicked");
 					}
