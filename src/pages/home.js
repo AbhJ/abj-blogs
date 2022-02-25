@@ -12,7 +12,7 @@ const Home = () => {
 		[
 			{
 				id: 6,
-				headLine: "God is an introvert",
+				headLine: "God is an Introvert",
 				day: "Feb 25 2022"
 			},
 			{
