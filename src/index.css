@@ -11,16 +11,6 @@ https://github.com/joshdick/onedark.vim
 DUE CREDITS TO THEM
  */
 
-.container {
-    min-width: 992px !important;
-}
-
-.pb-4,
-.py-4 {}
-
-.pt-4,
-.py-4 {}
-
 .footer {
     background-color: black;
     color: #fff;
