@@ -42,7 +42,7 @@ Button.propTypes = {
 }
 
 const ButtonStyle = {
-	borderRadius: "0.25em",
+	borderRadius: "0.8em",
 	color: "#282c34",
 	backgroundColor: "#61afef",
 	fontSize: "17px",

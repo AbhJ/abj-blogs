@@ -9,7 +9,7 @@ import React from 'react'
 
 const Copyright = ({copyright}) => {
 	return (
-		<div className={"footer"}>
+		<div className={"footer no-select"}>
 			<center>
 				<div className={"copyright text-white"}>
 					<small>
