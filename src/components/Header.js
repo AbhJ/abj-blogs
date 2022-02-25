@@ -13,7 +13,7 @@ const Header = (props) => {
 						{props.title}
 					</h1>
 				</Link>
-				<h2 style={descriptionStyles}>{props.description}</h2>
+				<h2 style={headingDescriptionStyles}>{props.description}</h2>
 			</center>
 		</div>
 	)
@@ -31,7 +31,8 @@ Header.defaultProps = {
 	isHomePage: true
 }
 
-const descriptionStyles = {
+const headingDescriptionStyles = {
 	paddingBottom: '1em',
+	fontSize: '170%',
 }
 export default Header;
