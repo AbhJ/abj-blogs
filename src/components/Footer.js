@@ -68,10 +68,10 @@ const Footer = (props) => {
 	}
 	if (props.isBlogsArticle === true) {
 		return (
-			<div style={foot}>
+			<div style={foot} class="no-select">
 				<Button
 					text="To HomePage"
-					className="toHome no-select"
+					className="toHome"
 					onClick={() => {
 						console.log("tohome clicked");
 					}
