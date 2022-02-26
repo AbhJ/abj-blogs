@@ -14,7 +14,7 @@ const art2 = () => {
 				</p>
 				</pre>
 				<center>
-					<img src='https://github.com/AbhJ/abhj/blob/master/image/abj_macbook.png?raw=true' alt='coding during internship' width='60%' />
+					<img src='https://raw.githubusercontent.com/AbhJ/abj-blogs/master/src/images/abj_macbook.png' alt='coding during internship' width='60%' />
 					<br />
 					<pre>Me coding while interning at Salesforce!!! 😎</pre>
 				</center>

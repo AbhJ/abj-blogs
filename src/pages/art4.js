@@ -17,7 +17,7 @@ const art4 = () => {
 					I recently finished the book 'Zero To One' by Peter Thiel and thought of noting stuff down somewhere for my future use.
 				</p>
 				<center>
-					<img src='https://images-na.ssl-images-amazon.com/images/I/71Xygne8+qL.jpg' alt='book cover' width='60%' />
+					<img src='https://raw.githubusercontent.com/AbhJ/abj-blogs/master/src/images/zero_to_one.jpg' alt='book cover' width='60%' />
 					<br />
 					<pre>Cover of Zero to One <i>(source: <a href='https://en.wikipedia.org/wiki/Zero_to_One'>Wikipedia</a>)</i></pre>
 				</center>

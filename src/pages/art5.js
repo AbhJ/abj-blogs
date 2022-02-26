@@ -15,7 +15,7 @@ In this blog, we shall be discussing the updates and improvements in Ubuntu 21.1
 				</i>
 				</p>
 				<center>
-					<img src='https://github.com/AbhJ/abhj/raw/master/image/ubuntu-21.04.png' alt='Ubuntu 21.10' width='100%' />
+					<img src='https://raw.githubusercontent.com/AbhJ/abj-blogs/master/src/images/ubuntu-21.04.png' alt='Ubuntu 21.10' width='100%' />
 					<br />
 					<pre>
 					Finally installed Ubuntu 21.10 after a long wait!
