@@ -6,7 +6,7 @@ const art5 = () => {
 		<div>
 			<div style={{maxWidth: '90%', paddingLeft: '5%', top: '-1em', position: 'relative'}}>
 				<h2>Updates in Ubuntu 21.10.</h2>
-				<pre>This blog is also available in <a href="https://youtu.be/JRt2PA3zCFY">video</a> format.</pre>
+				<div class="horizontal-rule"></div>
 				<p>
 In this blog, we shall be discussing the updates and improvements in Ubuntu 21.10.
 				</p>
@@ -44,6 +44,24 @@ Gnome 40 has improved the default Gnome Ubuntu Dock and added separators between
 				<p>
 Alongside the new additions to the OS, Ubuntu 21.10 is shipped with loads of software updates.
 				</p>
+				<div class="horizontal-rule"></div>
+				<center class="video-embed-div">
+					<div class="div-only-mobile">
+						<div class="video-container">
+							<iframe allowfullscreen="" class="video" src="https://www.youtube.com/embed/JRt2PA3zCFY">
+							</iframe>
+						</div>
+					</div>
+					<div class="div-no-mobile">
+						<div class="video-container">
+							<iframe allowfullscreen="" class="video" src="https://www.youtube.com/embed/JRt2PA3zCFY">
+							</iframe>
+						</div>
+					</div>
+				<pre>
+				In video format!
+				</pre>
+				</center>
 			</div>
 			<Footer
 				isBlogsArticle={true}

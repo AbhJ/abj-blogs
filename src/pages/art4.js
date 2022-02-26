@@ -6,7 +6,7 @@ const art4 = () => {
 		<div>
 			<div style={{maxWidth: '90%', paddingLeft: '5%', top: '-1em', position: 'relative'}}>
 				<h2>My Review of 'Zero To One'.</h2>
-				<pre>This blog is also available in <a href="https://youtu.be/j8kUFnLK1zU">video</a> format.</pre>
+				<div class="horizontal-rule"></div>
 				<p>
 					Apart from being a guy who reads and writes code, I am also an avid reader of books and manga. 
 				</p>
@@ -95,6 +95,24 @@ const art4 = () => {
 						<li>The best problems to work on are often the ones nobody else even tries to solve.</li>
 					</ul>
 				</p>
+				<div class="horizontal-rule"></div>
+				<center class="video-embed-div">
+					<div class="div-only-mobile">
+						<div class="video-container">
+							<iframe allowfullscreen="" class="video" src="https://www.youtube.com/embed/j8kUFnLK1zU">
+							</iframe>
+						</div>
+					</div>
+					<div class="div-no-mobile">
+						<div class="video-container">
+							<iframe allowfullscreen="" class="video" src="https://www.youtube.com/embed/j8kUFnLK1zU">
+							</iframe>
+						</div>
+					</div>
+				<pre>
+				In video format!
+				</pre>
+				</center>
 			</div>
 			<Footer
 				isBlogsArticle={true}

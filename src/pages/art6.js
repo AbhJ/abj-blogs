@@ -6,6 +6,7 @@ const art5 = () => {
 		<div>
 			<div style={{maxWidth: '90%', paddingLeft: '5%', top: '-1em', position: 'relative'}}>
 				<h2>God is an Introvert.</h2>
+				<div class="horizontal-rule"></div>
 				<pre>
 					<p>
 					<i>
