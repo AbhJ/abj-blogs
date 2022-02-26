@@ -49,7 +49,8 @@ const ButtonStyle = {
 	lineHeight: "30.5px",
 	fontWeight: "bolder",
 	fontFamily: "benton-sans",
-	cursor: "pointer"
+	cursor: "pointer",
+	width: "8em",
 }
 
 export default Button;
