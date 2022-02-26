@@ -1,7 +1,7 @@
 {
   "files": {
-    "static/js/0.36a797bb.chunk.js": "/abj-blogs/static/js/0.36a797bb.chunk.js",
-    "static/js/0.36a797bb.chunk.js.map": "/abj-blogs/static/js/0.36a797bb.chunk.js.map",
+    "static/js/0.76fdcfb5.chunk.js": "/abj-blogs/static/js/0.76fdcfb5.chunk.js",
+    "static/js/0.76fdcfb5.chunk.js.map": "/abj-blogs/static/js/0.76fdcfb5.chunk.js.map",
     "static/js/1.e5bea09f.chunk.js": "/abj-blogs/static/js/1.e5bea09f.chunk.js",
     "static/js/1.e5bea09f.chunk.js.map": "/abj-blogs/static/js/1.e5bea09f.chunk.js.map",
     "static/js/2.a1e4097d.chunk.js": "/abj-blogs/static/js/2.a1e4097d.chunk.js",
@@ -15,8 +15,8 @@
     "main.css": "/abj-blogs/static/css/main.9438468c.chunk.css",
     "main.js": "/abj-blogs/static/js/main.5c6e2940.chunk.js",
     "main.js.map": "/abj-blogs/static/js/main.5c6e2940.chunk.js.map",
-    "runtime-main.js": "/abj-blogs/static/js/runtime-main.ad0caf2b.js",
-    "runtime-main.js.map": "/abj-blogs/static/js/runtime-main.ad0caf2b.js.map",
+    "runtime-main.js": "/abj-blogs/static/js/runtime-main.baa3f4be.js",
+    "runtime-main.js.map": "/abj-blogs/static/js/runtime-main.baa3f4be.js.map",
     "static/js/8.3e0c5cfd.chunk.js": "/abj-blogs/static/js/8.3e0c5cfd.chunk.js",
     "static/js/8.3e0c5cfd.chunk.js.map": "/abj-blogs/static/js/8.3e0c5cfd.chunk.js.map",
     "static/js/9.19606df2.chunk.js": "/abj-blogs/static/js/9.19606df2.chunk.js",
@@ -29,7 +29,7 @@
     "static/media/art2.sublime-workspace": "/abj-blogs/static/media/art2.53328ba1.sublime-workspace"
   },
   "entrypoints": [
-    "static/js/runtime-main.ad0caf2b.js",
+    "static/js/runtime-main.baa3f4be.js",
     "static/js/8.3e0c5cfd.chunk.js",
     "static/css/main.9438468c.chunk.css",
     "static/js/main.5c6e2940.chunk.js"
