@@ -6,7 +6,6 @@
  */
 
 import React from 'react';
-import PropTypes from 'prop-types';
 import {Link} from "react-router-dom";
 
 const Copyright = ({copyright}) => {
@@ -15,7 +14,7 @@ const Copyright = ({copyright}) => {
 			<center>
 				<div className={"copyright text-white"}>
 					<small>
-						Copyright © <Link to="">AbJ</Link> February 2022
+						Copyright © <a href="https://abhj.github.io">AbJ</a> February 2022
 					</small>
 				</div>
 			</center>
