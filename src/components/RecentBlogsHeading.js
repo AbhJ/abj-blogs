@@ -4,7 +4,7 @@ const RecentBlogsHeading = () => {
 	return (
 		<div>
 			<h2>
-				The most recent blogs
+				My latest blogs
 			</h2>
 		</div>
 	)

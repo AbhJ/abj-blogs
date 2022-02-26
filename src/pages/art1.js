@@ -6,8 +6,7 @@ const art1 = () => {
 		<div>
 			<div style={{maxWidth: '90%', paddingLeft: '5%', paddingBottom: '1em', top: '-1em', position: 'relative'}}>
 				<h2>A Tribute to Kentaro Miura.</h2>
-
-				<pre>This blog is also available in <a href="https://youtu.be/0gHNucQqVNo">video</a> format.</pre>
+			<div class="horizontal-rule"></div>
 				<center>
 					<img src='https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/Kentaro_Miura.png/220px-Kentaro_Miura.png' alt='Kentaro Miura' width='60%' />
 					<br />
@@ -29,6 +28,24 @@ const art1 = () => {
 					Being an introvert throughout my life, I appreciate books and literature more than most, and being an IITian boosts my understanding of them. I take pride in having lived in the era of Kentaro Miura and do believe that you would feel the same way once you have read even a bit of Berserk. <br />
 					Miura, you will be forever missed.
 				</p>
+				<div class="horizontal-rule"></div>
+				<center class="video-embed-div">
+					<div class="div-only-mobile">
+						<div class="video-container">
+							<iframe allowfullscreen="" class="video" src="https://www.youtube.com/embed/0gHNucQqVNo">
+							</iframe>
+						</div>
+					</div>
+					<div class="div-no-mobile">
+						<div class="video-container">
+							<iframe allowfullscreen="" class="video" src="https://www.youtube.com/embed/0gHNucQqVNo">
+							</iframe>
+						</div>
+					</div>
+				<pre>
+				In video format!
+				</pre>
+				</center>
 			</div>
 			<Footer
 				isBlogsArticle={true}

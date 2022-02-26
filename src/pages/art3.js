@@ -6,8 +6,10 @@ const art3 = () => {
 		<div>
 			<div style={{maxWidth: '90%', paddingLeft: '5%', top: '-1em', position: 'relative'}}>
 				<h2>Languages of the Future.</h2>
-				<pre>This blog is also available in <a href="https://youtu.be/B4uNoxvmryw">video</a> format.</pre>
+				<div class="horizontal-rule"></div>
+				<p>
 				Some languages which I don't see going out of demand (until 2030 hopefully) are definitely:
+				</p>
 				<h3>Java</h3>
 				<p>
 					Most companies in tech use Java to build their backend applications. Java is very fast as a language, is mainly based on OOPS (which makes code modular and clean to read), and most importantly is independent of the platform (all you need to run it is the JVM - Java Virtual Machine).
@@ -43,6 +45,24 @@ const art3 = () => {
 				<p>
 					Code in Python looks more like pseudo code than most other languages. That makes Python code very easy to understand. Also, the learning curve in Python is much easier for newcomers in the world of software.
 				</p>
+				<div class="horizontal-rule"></div>
+				<center class="video-embed-div">
+					<div class="div-only-mobile">
+						<div class="video-container">
+							<iframe allowfullscreen="" class="video" src="https://www.youtube.com/embed/B4uNoxvmryw">
+							</iframe>
+						</div>
+					</div>
+					<div class="div-no-mobile">
+						<div class="video-container">
+							<iframe allowfullscreen="" class="video" src="https://www.youtube.com/embed/B4uNoxvmryw">
+							</iframe>
+						</div>
+					</div>
+				<pre>
+				In video format!
+				</pre>
+				</center>
 			</div>
 			<Footer
 				isBlogsArticle={true}

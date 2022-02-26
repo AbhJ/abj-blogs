@@ -6,14 +6,9 @@ const art2 = () => {
 		<div>
 			<div style={{maxWidth: '90%', paddingLeft: '5%', paddingBottom: '1em', top: '-1em', position: 'relative'}}>
 				<h2>My Internship at Salesforce.</h2>
+				<div class="horizontal-rule"></div>
 				<h4>This blog is about my internship experience at Salesforce India. This was a (remote - due to <a href='https://en.wikipedia.org/wiki/COVID-19'>Covid-19</a>) Software Engineering Internship I took in Summer 2021. </h4>
 				<pre>
-				<p>
-				This blog has also been published at the <a href="https://internphile.herokuapp.com/intern/Abhijay_Mitra">link</a>.
-				</p>
-				<p>
-				A similar video has also been published at the <a href="https://youtu.be/aR9AilNbtio">link</a>.
-				</p>
 				<p>
 				The blog in particular is in the form of a question-answer pattern unlike the others as it was a <a href="https://internphile.herokuapp.com/intern/Abhijay_Mitra">questionnaire</a> that I filled out about my internship.
 				</p>
@@ -78,6 +73,38 @@ const art2 = () => {
 				<p>
 					I often had conversations about the tech being used in the project with the team and had suggested some ways at some junctures. The team was always appreciative of my suggestions and provided valuable alternatives in case I was wrong.
 				</p>
+				<div class="horizontal-rule"></div>
+				<center class="video-embed-div">
+					<div class="div-only-mobile">
+						<div class="video-container">
+							<iframe allowfullscreen="" class="video" src="https://www.youtube.com/embed/aR9AilNbtio">
+							</iframe>
+						</div>
+					</div>
+					<div class="div-no-mobile">
+						<div class="video-container">
+							<iframe allowfullscreen="" class="video" src="https://www.youtube.com/embed/aR9AilNbtio">
+							</iframe>
+						</div>
+					</div>
+				</center>
+				<center class="video-embed-div">
+					<div class="div-only-mobile">
+						<div class="video-container">
+							<iframe allowfullscreen="" class="video" src="https://www.youtube.com/embed/9q1mWdwpH_s">
+							</iframe>
+						</div>
+					</div>
+					<div class="div-no-mobile">
+						<div class="video-container">
+							<iframe allowfullscreen="" class="video" src="https://www.youtube.com/embed/9q1mWdwpH_s">
+							</iframe>
+						</div>
+					</div>
+				<pre>
+				In video formats!
+				</pre>
+				</center>
 			</div>
 			<Footer
 				isBlogsArticle={true}

@@ -27,12 +27,11 @@ Header.propTypes = {
 
 Header.defaultProps = {
 	title: "ABJ Blogs",
-	description: "Blogs about Tech and Software",
+	description: "Blogs about Tech and Life",
 	isHomePage: true
 }
 
 const headingDescriptionStyles = {
-	paddingBottom: '1em',
 	fontSize: '170%',
 }
 export default Header;
