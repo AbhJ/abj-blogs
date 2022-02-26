@@ -1,5 +1,5 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
 import {Link} from "react-router-dom";
 
 const Button = (props) => {
@@ -8,7 +8,7 @@ const Button = (props) => {
 			<div>
 				<center>
 					<button style={ButtonStyle} onClick={props.onClick} className={props.className} text={props.text} >
-						<Link to="/abj-blogs/" style={{color: '#282c34'}}>
+						<Link to="/abj-blogs" style={{color: '#282c34'}}>
 							{props.text}
 						</Link>
 					</button>
