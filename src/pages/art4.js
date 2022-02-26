@@ -8,7 +8,10 @@ const art4 = () => {
 				<h2>My Review of 'Zero To One'.</h2>
 				<pre>This blog is also available in <a href="https://youtu.be/j8kUFnLK1zU">video</a> format.</pre>
 				<p>
-					Apart from being a guy who reads and writes code, I am also an avid reader of books and manga. You can find about my likes and recommendations from my <a href='https://www.goodreads.com/abhj'>Goodreads profile</a>.
+					Apart from being a guy who reads and writes code, I am also an avid reader of books and manga. 
+				</p>
+				<p>
+				You can find my likes and recommendations from my <a href='https://www.goodreads.com/abhj'>Goodreads profile</a>.
 				</p>
 				<p>
 					I recently finished the book 'Zero To One' by Peter Thiel and thought of noting stuff down somewhere for my future use.
@@ -16,7 +19,7 @@ const art4 = () => {
 				<center>
 					<img src='https://images-na.ssl-images-amazon.com/images/I/71Xygne8+qL.jpg' alt='book cover' width='60%' />
 					<br />
-					<pre>Cover of Zero to One (source: <a href='https://en.wikipedia.org/wiki/Zero_to_One'>Wikipedia</a>)</pre>
+					<pre>Cover of Zero to One <i>(source: <a href='https://en.wikipedia.org/wiki/Zero_to_One'>Wikipedia</a>)</i></pre>
 				</center>
 				<h3>Why are monopolies so successful?</h3>
 				<p>
@@ -44,16 +47,16 @@ const art4 = () => {
 					If one focuses on near-term growth above all else, one misses the most important question: Will this business still be around a decade from now?
 				</p>
 				<p>
-					Numbers alone won't tell one the answer. Instead one must think critically about the qualitative characteristics of ones own business.
+					Numbers alone won't tell one the answer. Instead one must think critically about the qualitative characteristics of one's own business.
 				</p>
-				<h3>How good should the proprietery tech be?</h3>
+				<h3>How good should the proprietary tech be?</h3>
 				<p>
 					Thiel says that a good rule of thumb is that proprietary technology must be at least 10 times better than its closest substitute in some important dimension to lead to a real monopolistic advantage.
 				</p>
 				<p>
 					Anything less than an order of magnitude better will probably be perceived as a marginal improvement and will be hard to sell, especially in an already crowded market.
 				</p>
-				<h3>How does sales work?</h3>
+				<h3>How do sales work?</h3>
 				<p>
 					Like acting, sales works best when hidden.
 				</p>
@@ -69,7 +72,7 @@ const art4 = () => {
 					</ul>
 				</p>
 				<p>
-					Thiel emphasises the reason being, none of us wants to be reminded when we're being sold.
+					Thiel emphasizes the reason being, none of us wants to be reminded when we're being sold.
 				</p>
 				<h3>Are engineers skilled enough to sell tech?</h3>
 				<p>
@@ -82,9 +85,9 @@ const art4 = () => {
 					Economists attribute this to "path dependence": specific historical circumstances independent of objective quality can determine which products enjoy widespread adoption.
 				</p>
 				<p>
-					Thiel brings a conclusion to this dillema by stating: It's better to think of distribution as something essential to the design of your product. If you've invented something new but you haven't invented an effective way to sell it, you have a bad business no matter how good the product.
+					Thiel brings a conclusion to this dilemma by stating: It's better to think of distribution as something essential to the design of your product. If you've invented something new but you haven't invented an effective way to sell it, you have a bad business no matter how good the product is.
 				</p>
-				<h3>Which problems / projects are the best?</h3>
+				<h3>Which problems/projects are the best?</h3>
 				<p>
 					<ul>
 						<li>Doing something different is what's truly good for society and it's also what allows a business to profit by monopolizing a new market.</li>
