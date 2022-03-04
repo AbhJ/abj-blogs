@@ -13,7 +13,7 @@ const Copyright = ({copyright}) => {
 			<center>
 				<div className={"copyright text-white"}>
 					<small>
-						Copyright © <a href="https://abhj.github.io">AbJ</a> February 2022
+						Copyright © <a href="https://abhj.github.io">AbJ</a> March 2022
 					</small>
 				</div>
 			</center>
