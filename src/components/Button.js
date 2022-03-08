@@ -50,7 +50,6 @@ const ButtonStyle = {
 	fontWeight: "bolder",
 	fontFamily: "benton-sans",
 	cursor: "pointer",
-	width: "8em",
 }
 
 export default Button;
