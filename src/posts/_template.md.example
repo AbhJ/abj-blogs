@@ -1,0 +1,260 @@
+---
+# ═══════════════════════════════════════════════════════════════
+#  INSTRUCTIONS FOR CLAUDE (when adding / refreshing a post)
+# ═══════════════════════════════════════════════════════════════
+#
+#  1. NEVER change the text the author wrote. No paraphrasing,
+#     no rewording, no grammar "fixes", no fact edits.
+#
+#  2. You MAY (and should) apply SEMANTIC FORMATTING on top of
+#     the author's raw text to improve visual readability:
+#       • **Bold** key phrases, named entities, metrics (2–5
+#         times per paragraph at most — sparingly)
+#       • *Italicise* book titles, movie titles, foreign terms,
+#         or the author's own emphasis signals
+#       • Break long paragraphs into shorter ones (3–5 sentences
+#         each) — but only at natural breathing points, and ONLY
+#         when the original text clearly has multiple ideas
+#       • Convert inline lists into proper bullet lists when the
+#         author has written comma-separated enumerations
+#       • Wrap code identifiers in `backticks`
+#     Do NOT add underlines — markdown underline isn't clean in
+#     this theme; prefer bold or italic instead.
+#
+#  3. Structure: if the post has distinct sections, add `###`
+#     subheadings ONLY where the author's own structure calls
+#     for them (e.g. rhetorical questions they're answering).
+#     Never invent section names the author didn't write.
+#
+#  4. Images + embeds: follow the patterns below (the <center>
+#     + <pre> caption wrapping for images, the <div class="video-
+#     container"> pattern for YouTube/Vimeo/etc.).
+#
+#  5. Frontmatter: set `title`, `date`, `tags`, and `summary`
+#     truthfully. `slug` is optional — leave it out unless the
+#     filename would produce a weird slug.
+#
+# ───────────────────────────────────────────────────────────────
+#  TEMPLATE — reference for every supported feature in a post.
+#
+#  This file is NOT published. Its extension (.md.example) hides
+#  it from the posts registry (which globs *.md only). Rename to
+#  `.md` — or copy-paste the sections into a new post file — and
+#  it will appear on the site automatically, sorted by `date`.
+#
+#  Filename convention: `YYYY-MM-DD-short-slug.md`
+#  The leading date prefix is stripped from the URL; the rest is
+#  the slug. So `2026-05-01-cool-thing.md` → `/p/cool-thing`.
+# ═══════════════════════════════════════════════════════════════
+title: Everything a Post Can Do
+date: 2026-05-01
+slug: everything-a-post-can-do       # optional — auto-derived from filename
+tags: [reference, template, media]   # optional — rendered as chips
+summary: A kitchen-sink example showing every supported feature — headings, images, videos, code, quotes, tables, and more.
+draft: true                          # optional — drafts are hidden in production
+cover: /images/cover.jpg             # optional — future use, currently unused
+---
+
+A leading paragraph sits right below the frontmatter. **Bold**, *italic*, and
+`inline code` all work. Links look like [this](https://abhj.github.io).
+
+## Level-2 headings divide major sections
+
+This is body text. Keep paragraphs short — 3–5 sentences typically reads best
+on screen. The modern theme styles `<h2>` at 1.7rem in Montserrat 600 with
+generous top margin for breathing room.
+
+### Level-3 headings for subsections
+
+Level-3 headings are 1.35rem in the modern theme — same font family, smaller
+size, identical top rhythm. Use these for clear topic shifts within a section.
+
+#### Level-4 when you really need a fourth tier
+
+Rarely needed. 1.12rem.
+
+---
+
+## Images — three supported styles
+
+### 1. Plain Markdown (simplest, left-aligned, full width up to container)
+
+![A simple caption that shows on hover](https://picsum.photos/800/400)
+
+### 2. Centered with a caption underneath (raw HTML)
+
+<center>
+  <img src="https://picsum.photos/600/400" alt="Scenic shot" width="70%" />
+  <br />
+  <pre>A subtle caption, rendered in monospace.</pre>
+</center>
+
+### 3. Reference a local asset
+
+Drop an image into `public/images/` in the project, then reference it as:
+
+<img src="/abj-blogs/images/my-photo.jpg" alt="My photo" width="60%" />
+
+> Note the `/abj-blogs/` prefix — that's required because the site is served
+> under that base path on GitHub Pages.
+
+---
+
+## YouTube embeds
+
+Use the `video-container` div pattern — the modern theme's CSS gives any
+iframe inside it a rounded 16:9 aspect with a drop shadow automatically.
+
+<div class="video-container">
+  <iframe allowfullscreen src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe>
+</div>
+
+You can stack multiple videos; each renders independently.
+
+<div class="video-container">
+  <iframe allowfullscreen src="https://www.youtube.com/embed/0gHNucQqVNo"></iframe>
+</div>
+
+### Other embeds work the same way
+
+Any `<iframe>` gets the same treatment — Vimeo, CodePen, Spotify, etc.
+
+<div class="video-container">
+  <iframe allowfullscreen src="https://player.vimeo.com/video/76979871"></iframe>
+</div>
+
+---
+
+## Code
+
+### Inline
+
+Reference a symbol like `useEffect` or a path like `src/lib/posts.ts` inline —
+it renders in a muted monospace chip.
+
+### Fenced block
+
+```javascript
+// Javascript — syntax recognised for optional highlighting later
+function greet(name) {
+	console.log(`Hello, ${name}`);
+	return name.length;
+}
+```
+
+```typescript
+// TypeScript
+interface Post {
+	title: string;
+	date: Date;
+	tags: string[];
+}
+```
+
+```bash
+# Shell commands
+cd ~/Documents/abj-blogs-master
+npm run dev
+```
+
+```python
+# Python — language hint shown after the opening fence
+def square(x: int) -> int:
+    return x * x
+```
+
+---
+
+## Lists
+
+### Unordered
+
+- First item
+- Second item
+- Third item, with **bold emphasis** inside
+- Fourth with a [link](https://example.com)
+
+### Ordered
+
+1. Install the deps
+2. Drop a `.md` file into `src/posts/`
+3. `npm run dev`
+4. Done
+
+### Nested
+
+- Top level
+  - Second level
+    - Third level
+  - Back to second
+- Back to first
+
+### Task lists (GFM)
+
+- [x] Written with front-matter
+- [x] Rendered via `react-markdown`
+- [ ] Publish it
+
+---
+
+## Blockquotes
+
+> A good blockquote is quiet. It should read like the author's voice paused
+> for a moment to let someone else speak.
+
+Multi-paragraph quotes:
+
+> First paragraph of the quote.
+>
+> Second paragraph continues the same thought, preserved by the blank quote
+> line between them.
+
+---
+
+## Tables (GFM)
+
+| Feature | Supported | Notes |
+|---|---|---|
+| Markdown headings | ✅ | `#`, `##`, `###`, `####` |
+| Images | ✅ | MD syntax or raw `<img>` |
+| YouTube / iframes | ✅ | Wrap in `<div class="video-container">` |
+| Code blocks | ✅ | Fenced, optional language hint |
+| Tables | ✅ | GFM pipe-table syntax |
+| Footnotes | ⚠️ | Plugin not wired up yet |
+
+Tables inherit the site's typography and have a thin border per cell.
+
+---
+
+## Horizontal rules
+
+Use three dashes on their own line. They render as a thin divider.
+
+---
+
+## Inline HTML you may also want
+
+Any raw HTML element works (courtesy of `rehype-raw`). Common ones:
+
+- `<br />` — forced line break
+- `<hr />` — same as three dashes above
+- `<strong>` / `<em>` — same as `**` / `*`
+- `<details>` / `<summary>` — collapsible sections
+
+<details>
+  <summary>Click to expand (native HTML, no plugin)</summary>
+
+  Content hidden until the summary is clicked.
+
+  - Works
+  - Inside
+  - Markdown
+
+</details>
+
+---
+
+## Sign-off
+
+Every post ends when you stop writing — no closing boilerplate required.
+The article page adds its own footer with a "← All writing" link.

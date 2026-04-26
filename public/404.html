@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>AbJ Blogs</title>
+	<!-- Single-page-app SPA redirect trick for GitHub Pages.
+	     When a direct URL like /abj-blogs/p/something is hit, GH Pages serves
+	     this 404 which rewrites to index.html and preserves the original path
+	     as a hash — index.jsx picks it up and restores the URL client-side. -->
+	<script>
+		(function () {
+			var base = '/abj-blogs/';
+			var path = window.location.pathname + window.location.search + window.location.hash;
+			window.location.replace(
+				window.location.origin + base + '?redirect=' + encodeURIComponent(path)
+			);
+		})();
+	</script>
+</head>
+<body></body>
+</html>
