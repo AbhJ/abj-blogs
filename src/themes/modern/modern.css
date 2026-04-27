@@ -780,9 +780,10 @@ a:hover { color: var(--link-hover); }
 }
 
 /* Apple Music embeds — opt-in via `.video-container--apple-music` on the
-   wrapper div. Container and iframe both locked to 175px (Apple's compact
-   player height). `!important` needed to beat the base .video-container
-   rule's aspect-ratio:16/9, absolute positioning, and overflow:hidden. */
+   wrapper div. Container and iframe both locked to 175px. react-markdown
+   sometimes wraps the div in a <p>, which then picks up the theme's global
+   `padding: 1.5rem 0 2.5rem` on video-container parents — so we also zero
+   out padding on any <p> that wraps an apple-music container. */
 .article__body .video-container.video-container--apple-music {
 	aspect-ratio: auto !important;
 	height: 175px !important;
@@ -801,6 +802,15 @@ a:hover { color: var(--link-hover); }
 	padding: 0 !important;
 	display: block;
 	background: transparent;
+}
+
+/* Kill the inherited vertical padding on any parent (p, center, article
+   body direct child) that wraps an apple-music container. */
+.article__body p:has(> .video-container.video-container--apple-music),
+.article__body center:has(> .video-container.video-container--apple-music),
+.article__body center > .video-container.video-container--apple-music,
+.article__body > .video-container.video-container--apple-music {
+	padding: 0 !important;
 }
 
 .article__footer {
