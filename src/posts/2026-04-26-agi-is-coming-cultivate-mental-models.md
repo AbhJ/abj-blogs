@@ -166,7 +166,7 @@ Now since AGI **is the Game** — a game none of us are really in control of —
 > — **Motörhead**, *"The Game"* (Triple H's entrance theme)
 
 <div class="video-container">
-  <iframe allowfullscreen src="https://embed.music.apple.com/us/album/the-game-theme-from-wwe/1443095301?i=1443095426"></iframe>
+  <iframe allowfullscreen src="https://embed.music.apple.com/us/album/the-game-triple-h/585439692?i=585439812"></iframe>
 </div>
 
 ---
