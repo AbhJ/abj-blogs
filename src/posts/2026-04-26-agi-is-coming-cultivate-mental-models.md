@@ -29,6 +29,7 @@ The AI tools already at my disposal have scaled up what *"productivity" to a com
 
 And the assumption that *"this will take decades"* is probably the **single most expensive belief** one can hold right now.
 
+## It's all about the game, and how you play it.
 ### Why do I think AGI is actually coming?
 
 I have never been persuaded by hype cycles or Twitter arguments. What changed my mind was watching **several independent curves** bend in the same direction at the same time.
@@ -88,6 +89,7 @@ Of that list, the first three are already being amplified — and in some cases 
 
 And judgement, when I look at it carefully, is **downstream of exactly one thing** — mental models.
 
+## It's all about control, and if you can take it.
 ### What is a mental model, exactly?
 
 A mental model is a **compressed, reusable representation** of how some part of the world works.
@@ -135,12 +137,14 @@ And the **leading** — the seeing, the choosing, the originating — is done wi
 
 The way out is to **not to always choose the hammer**. Cultivate enough fundas that one can reach for the right tool, the right lens at the right time.
 
+## It's all about the debt, and how you pay it.
 ### Honestly, AI-driven global warming might kill us first
 
 The datacentres behind every frontier model **drink water and electricity** at a scale most people have not internalised. **Cooling** that pulls from municipal water supplies already running dry. **Ice caps melting** a little faster every quarter. **Sea levels** creeping up on coastlines that were already on borrowed time. **Bangalore** — once famous for its weather — now feels like **Kolkata in peak summer**, and AI is **not the only reason, but it is squarely one of them**. We are **burning a staggering slice of the planet** to get machines marginally closer to our own benchmarks.
 
 This brings in the other point of no return, apart from AGI, we are missing over here is global warming. **AI-driven global warming might genuinely kill us before AGI ever arrives**. The climate curve is also an exponential. It is also reinforcing. And unlike the capability curves, it is **not one any of us can opt out of**. And countries need to cooperate with each other in other to make AGI or the progress towards it ethical.
 
+## It's all about the pain, and who's gonna make it.
 ### What I have concluded
 
 AGI is not the end of the career. It is the end of **the kind of career where knowing how to do, or what to do was enough**. The question **why something needs to be done** is seemingly more difficult for AI to answer, and is precisely where I feel, human interference shall remain crucial.
