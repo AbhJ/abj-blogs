@@ -674,7 +674,18 @@ a:hover { color: var(--link-hover); }
 /* Video containers and iframes share the same "engraved" treatment as images —
    soft inset darkening + ambient outer shadow so they feel carved into the
    surface, not floating on top. Uses padding-based spacing to match images. */
-.article__body .video-container,
+.article__body .video-container {
+	max-width: 100%;
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	border: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
 .article__body iframe {
 	max-width: 100%;
 	width: 100%;
