@@ -779,30 +779,28 @@ a:hover { color: var(--link-hover); }
 	box-shadow: none;
 }
 
-/* Apple Music embeds are natively short (~175px). Two-pronged fix:
-   (1) :has() for browsers that support it cleanly (Safari, latest Chrome),
-   (2) attribute selector on the iframe itself as a Chrome-safe fallback —
-   sets the iframe to natural height and neutralises the absolute-positioned
-   base rule so it sits flush inside its container. */
-.article__body .video-container:has(iframe[src*="embed.music.apple.com"]) {
-	aspect-ratio: auto;
-	height: 175px;
+/* Apple Music embeds — opt-in via `.video-container--apple-music` on the
+   wrapper div. Container and iframe both locked to 175px (Apple's compact
+   player height). `!important` needed to beat the base .video-container
+   rule's aspect-ratio:16/9, absolute positioning, and overflow:hidden. */
+.article__body .video-container.video-container--apple-music {
+	aspect-ratio: auto !important;
+	height: 175px !important;
 	max-width: 660px;
+	overflow: visible !important;
+	padding: 0 !important;
 }
 
-.article__body iframe[src*="embed.music.apple.com"] {
-	position: static;
-	aspect-ratio: auto;
-	height: 175px;
-	max-height: 175px;
-	max-width: 660px;
-	margin: 0 auto;
+.article__body .video-container.video-container--apple-music iframe {
+	position: static !important;
+	inset: auto !important;
+	aspect-ratio: auto !important;
+	height: 175px !important;
+	width: 100% !important;
+	margin: 0 !important;
+	padding: 0 !important;
 	display: block;
-}
-
-.article__body .video-container:has(iframe[src*="embed.music.apple.com"]) iframe {
-	position: static;
-	height: 175px;
+	background: transparent;
 }
 
 .article__footer {
