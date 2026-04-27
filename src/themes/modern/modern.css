@@ -779,13 +779,30 @@ a:hover { color: var(--link-hover); }
 	box-shadow: none;
 }
 
-/* Apple Music embeds are natively short (~175px) — overriding the 16:9
-   container rule so they render at their intended height instead of
-   floating pinned to the top of a wide empty box. */
+/* Apple Music embeds are natively short (~175px). Two-pronged fix:
+   (1) :has() for browsers that support it cleanly (Safari, latest Chrome),
+   (2) attribute selector on the iframe itself as a Chrome-safe fallback —
+   sets the iframe to natural height and neutralises the absolute-positioned
+   base rule so it sits flush inside its container. */
 .article__body .video-container:has(iframe[src*="embed.music.apple.com"]) {
 	aspect-ratio: auto;
 	height: 175px;
 	max-width: 660px;
+}
+
+.article__body iframe[src*="embed.music.apple.com"] {
+	position: static;
+	aspect-ratio: auto;
+	height: 175px;
+	max-height: 175px;
+	max-width: 660px;
+	margin: 0 auto;
+	display: block;
+}
+
+.article__body .video-container:has(iframe[src*="embed.music.apple.com"]) iframe {
+	position: static;
+	height: 175px;
 }
 
 .article__footer {
