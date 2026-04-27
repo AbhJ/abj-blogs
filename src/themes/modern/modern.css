@@ -779,38 +779,22 @@ a:hover { color: var(--link-hover); }
 	box-shadow: none;
 }
 
-/* Apple Music embeds — opt-in via `.video-container--apple-music` on the
-   wrapper div. Container and iframe both locked to 175px. react-markdown
-   sometimes wraps the div in a <p>, which then picks up the theme's global
-   `padding: 1.5rem 0 2.5rem` on video-container parents — so we also zero
-   out padding on any <p> that wraps an apple-music container. */
-.article__body .video-container.video-container--apple-music {
-	aspect-ratio: auto !important;
-	height: 175px !important;
-	max-width: 660px;
-	overflow: visible !important;
-	padding: 0 !important;
-}
-
-.article__body .video-container.video-container--apple-music iframe {
-	position: static !important;
-	inset: auto !important;
+/* Apple Music embeds — use a raw <iframe class="apple-music-embed"> in
+   posts (NOT wrapped in .video-container). The base .article__body iframe
+   rule still applies (16:9 aspect-ratio, overflow:hidden, shadow) so we
+   override all of it here for this specific iframe class. */
+.article__body iframe.apple-music-embed {
 	aspect-ratio: auto !important;
 	height: 175px !important;
 	width: 100% !important;
-	margin: 0 !important;
-	padding: 0 !important;
+	max-width: 660px !important;
+	margin: 2rem auto !important;
 	display: block;
 	background: transparent;
-}
-
-/* Kill the inherited vertical padding on any parent (p, center, article
-   body direct child) that wraps an apple-music container. */
-.article__body p:has(> .video-container.video-container--apple-music),
-.article__body center:has(> .video-container.video-container--apple-music),
-.article__body center > .video-container.video-container--apple-music,
-.article__body > .video-container.video-container--apple-music {
-	padding: 0 !important;
+	overflow: visible !important;
+	position: static !important;
+	border: 0;
+	border-radius: 10px;
 }
 
 .article__footer {
